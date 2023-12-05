@@ -1,0 +1,870 @@
+ID,Topic ID,Topic Template ID,Duration,Technologies Topic - Topic → Created At,Technologies Topic - Topic → Created By ID,Technologies Topic - Topic → ID,Technologies Topic - Topic → Ordering,Technologies Topic - Topic → Parent ID,Technologies Topic - Topic → Tag Gable Topic,Technologies Topic - Topic → Title,Technologies Topic - Topic → Tree ID,Assignments Assignment Question Topic Mapping - Topic → Assignment Question ID,Assignments Assignment Question Topic Mapping - Topic → ID,Assignments Assignment Question Topic Mapping - Topic → Mandatory,Assignments Assignment Question Topic Mapping - Topic → Question Difficulty Type,Assignments Assignment Question Topic Mapping - Topic → Topic ID,Assignments Assignment Question Topic Mapping - Topic → Question Utility Type,Assignments Assignment Question Topic Mapping - Topic → Relevance,Assignments Assignment Question Topic Mapping - Topic → Main Topic,Assignments Assignment Question - Assignment Question → Created At,Assignments Assignment Question - Assignment Question → Created By ID,Assignments Assignment Question - Assignment Question → Deleted By ID,Assignments Assignment Question - Assignment Question → ID,Assignments Assignment Question - Assignment Question → Input,Assignments Assignment Question - Assignment Question → Peer Reviewed,Assignments Assignment Question - Assignment Question → Peer Reviewed By ID,Assignments Assignment Question - Assignment Question → Question For Assignment Type,Assignments Assignment Question - Assignment Question → Question Image,Assignments Assignment Question - Assignment Question → Question Text,Assignments Assignment Question - Assignment Question → Question Title,Assignments Assignment Question - Assignment Question → Question Type,Assignments Assignment Question - Assignment Question → Verified,Assignments Assignment Question - Assignment Question → Rating,Assignments Assignment Question - Assignment Question → Difficulty Type
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10068,21703,false,3,2185,2,10,true,2023-09-18T14:56:43.422933+05:30,822046,,10068,An Integer,false,,{1},,"Create a program that prompts the user to enter an integer, converts it to a floating- point number, and then prints the result.",Input an Integer,3,true,0,3
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10995,21272,false,3,2185,2,10,true,2023-10-27T13:24:18.485213+05:30,1510703,,10995,Input the target number.,true,821571,{1},,"Write a Python program that takes an integer input from the user. If the input is less than 10, raise the <code>&quot;ValueTooSmallError&quot;</code>&nbsp;exception. Handle this custom exception and display an error message.<br />
+Note:- For non numeric values print the valueerror <code><strong>&quot;Invalid input. Please enter an integer. &quot;</strong></code>",Random Exception,3,true,0,3
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10993,21271,false,3,2185,2,10,true,2023-10-27T12:53:44.822608+05:30,1510703,,10993,Input the amount to be withdrawn less then 1000.,true,821571,{1},,"Write a Python program that simulates a simple ATM. The program should allow the user to withdraw money and should handle exceptions for insufficient balance and invalid input. Start with a balance of $1000.<br />
+<strong>Note:- Take care of the ValueError for negative values of amount.</strong>",Simple ATM!!,3,true,0,3
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10992,21270,false,3,2185,2,10,true,2023-10-27T12:19:41.551706+05:30,1510703,,10992,Input consist of the age to be checked,true,821571,{1},,Create a custom exception class called &quot;ValueTooSmallError&quot; that inherits from the built- in &quot;Exception&quot; class. Write a Python function <code>validate_age(age)</code> that takes an age as input and raises a &quot;ValueTooSmallError&quot; exception if the age is less than 18. Handle this custom exception and print &quot;Age is too small&quot; if it is raised.,Custom Exception,3,true,0,3
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10991,21269,false,2,2185,1,10,true,2023-10-27T11:39:20.252015+05:30,1510703,,10991,"Input a list of numbers separated by spaces, and the index they want to access.",true,821571,{1},,"Write a Python function <code>safe_get_element(lst, index)</code> that takes a list <code>lst</code> and an index as input. It should return the element at the given index if it is within the valid range, and if the index is out of range, handle the &quot;IndexError&quot; exception and return <code>&quot;<strong>Index out of range&quot;</strong></code>",Index Out of Range,3,true,0,2
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10990,21268,false,2,2185,1,10,true,2023-10-27T11:17:00.470593+05:30,1510703,,10990,Two variables a & b for a/b.,true,821571,{1},,"Write a Python function <code>safe_divide(a, b)</code> that takes two numbers <code>a</code> and <code>b</code> as input and returns the result of dividing <code>a</code> by <code>b</code>. However, the function should handle the &quot;ZeroDivisionError&quot; exception and return &quot;Cannot divide by zero&quot; if <code>b</code> is zero.",Divide by Zero Exception,3,true,0,2
+172067,2185,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:25:43.455193+05:30,632022,2185,1068,,true,Python exception handling,1709,10829,20965,false,2,2185,2,10,true,2023-10-20T18:22:08.438648+05:30,822046,,10829,"Since this is a functional problem, you don't have to take any input. The format for the input is:
+Three integers in new lines representing low, high and customer age.
+
+You just have to complete entryresponse() function that takes in low, high and customer age as input.
+",true,1510703,{1},,"You are given age of customers in a bar which only accepts customers within a range. You are given age of a customer and your task is to throw an error based on the age of the customer. If he is above age, throw <code>&quot;Overage&quot;</code> else throw <code>&quot;Underage&quot;</code>.",Under Age,3,true,0,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,847,22252,false,2,2179,2,10,true,2020-06-20T07:57:27.636451+05:30,14817,,847,"<b>User Task:</b>
+Since this will be a functional problem, you don't have to take input. You just have to complete the function <b>nthAP()</b> that takes the integer A, B, and N as a parameter.
+
+<b>Constraints:</b>
+-10^3 <= x <= 10^3
+-10^3 <= y <= 10^3
+1 <= z <= 10^4",true,664,{5},,"Given a function <code>nthAP(x, y, z)</code> that calculates the nth term of an arithmetic progression (AP) based on the first term <code>x</code>, the second term <code>y</code>, and the position <code>z</code>, your task is to complete the code inside the function to correctly calculate the nth term of the arithmetic progression. The function should return the calculated nth term.",AP series - Python,3,true,1420,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,3956,22243,false,2,2179,2,10,true,2022-09-01T12:02:40.797231+05:30,714721,,3956,"The first and only line contains the number.
+
+Constraints:
+-100000<=n<=100000",true,14817,{5},,Write a program to test whether a number is within 100 of 1000 or 2000.,Number Range,3,true,0,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,10064,22029,false,2,2179,2,10,true,2023-09-18T14:14:00.915078+05:30,822046,,10064,Two Integers,true,1541261,{1},,Write a Python program that takes two variables and swaps their values without using a third variable.,Swaping Without Variable,3,true,0,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,11443,22022,false,2,2179,2,10,true,2023-11-17T12:43:17.711645+05:30,1541261,,11443,"The program requests the user to input the length and width of a rectangle. The initial input corresponds to the length, followed by the width.",false,,{1},,"Write a Python program that calculates the area of a rectangle given its length and width. The program should prompt the user to enter the length and width of the rectangle, and then calculate and print the area.",Rectangle Area Calculator,3,true,0,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,11488,21946,false,3,2179,1,10,true,2023-11-21T15:59:19.579408+05:30,1541261,,11488,"The first line indicates your age as an integer 
+The second line indicates your citizenship status (""Yes"" or ""No"") to determine your eligibility to vote.
+<code> Being case sensitive take citizenship status as Yes and No </code>",true,1493278,{1},,"<p>You are creating a program to simulate a simple voting system. The program should take input from a user for their age and citizenship status and determine whether they are eligible to vote based on the following conditions:</p>
+
+<ul>
+	<li>Citizens aged 18 and above are eligible to vote.</li>
+	<li>Non- citizens, regardless of age, cannot vote.</li>
+</ul>",Voting Eligibility Checker,3,true,0,3
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,11487,21944,false,3,2179,2,10,true,2023-11-21T15:25:24.384553+05:30,1541261,,11487,Input your age as an integer and specify your membership status as 'yes' or 'no',true,1493278,{1},,"You&#39;re developing a simple program to assist a user in determining their eligibility for various discount offers based on their age and membership status. The program will take inputs for age and membership status (as &#39;yes&#39; or &#39;no&#39;) and use logical operators to decide whether the user qualifies for certain discounts.<br />
+<br />
+Predefined constraints:
+<ul>
+	<li>Student Discount: Age should be 25 or below, and the user must be a member (&#39;yes&#39;).</li>
+	<li>Senior Citizen Discount: Age should be 60 or above, and the user must be a member (&#39;yes&#39;).</li>
+	<li>Member Discount: Any user who is a member (&#39;yes&#39;) qualifies for the Member Discount.</li>
+</ul>
+<br />
+<br />
+&nbsp;",Discount Eligibility Checker,3,true,0,3
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,11483,21941,false,4,2179,2,10,true,2023-11-21T13:48:51.923531+05:30,1541261,,11483,Input your security clearance level (an integer value) and a special access code to determine whether you'll be granted access.,true,1493278,{1},,"You&#39;re tasked with creating a program that simulates a simple access control system for a secure facility. The system uses logical operators to determine access permissions based on the user&#39;s credentials. Your task is to take input from the user for their security clearance level and a special access code, the program should evaluate whether the user meets the required access criteria and grant access if the conditions are met.<br />
+<br />
+Predefined Conditions:
+<ul>
+	<li>If required_clearance_level &gt;=&nbsp;5 and required_access_code&nbsp;=&nbsp;&quot;OpenSesame&quot; then displays&nbsp;Access Granted</li>
+	<li>Else Access Denied</li>
+</ul>",Secure Access Control System,3,true,0,4
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,11479,21935,false,3,2179,2,10,true,2023-11-21T10:50:51.769096+05:30,1541261,,11479,Prompt the user to enter a target value representing the warehouse capacity.,true,1493278,{1},,"You are a data scientist working for a retail chain that is optimizing its inventory management system. The company aims to efficiently utilize warehouse space by grouping products based on their numerical attributes, specifically multiples of certain numbers. Create a Python program to compute the sum of all such products that are multiples of 3 or 5 below a specified threshold. This process helps in analyzing the quantities of products falling under these categories to enhance inventory organization.",Optimizing Warehouse Inventory,3,true,0,3
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,858,21915,false,2,2179,2,10,true,2020-06-20T19:03:00.876367+05:30,14817,,858,"The first line of the input contains integer X 
+The first line of the input contains integer Y.
+
+<b>Constraints:</b>
+1 &le; X, Y &le; 10000",true,664,{1},,You must be familiar with various types of operators. One of the most commonly used operators in any language are increment and decrement operators. Given two numbers X and Y. Your task is to print the value of X decremented by 1 and value of Y after incremented by 1.,Increment And Decrement,3,true,1293,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,846,21911,false,2,2179,1,10,true,2020-06-20T07:11:38.631516+05:30,14817,,846,"Since this will be a functional problem, you don't have to take input. You have to complete the function 
+ <b>operations()</b> that takes the integer x and y as parameters.
+
+<b>Constraints:</b>
+1 &le; y &le; x &le;1000
+<b> It is guaranteed that x will be divisible by y.</b>",true,664,"{1,3}",,"Given two integers x and y, your task is to calculate values for each of the following operations:- x + y, x - y, x * y, x/y",Operators - Python,3,true,1395,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,839,21680,false,2,2179,1,10,true,2020-06-19T19:16:19.334263+05:30,14817,,839,"The first line of the input contains the side of the square.
+
+<b>Constraints:</b>
+1 <= side <=100",true,664,{1},,"Given a side of a square, your task is to calculate and print its area.",Area of Square,3,true,1403,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,755,20918,false,2,2179,2,0,true,2020-05-21T01:07:12.480841+05:30,26956,,755,"The first line of the input contains 2 integers a and b.
+
+<b>Constraints:</b>
+1 <= a, b <= 100",true,14817,{1},,"Given two integers a and b, your task is to check following conditions:-
+<ul>
+	<li>&nbsp;If a &lt;= 10 and b &gt;= 10 (Logical AND).</li>
+	<li>&nbsp;Atleast one from a or b will be even (Logical OR).</li>
+	<li>&nbsp;If a is not equal to b (Logical NOT).</li>
+</ul>
+<br />
+Note: The variables values are already stored in a &amp; b.",Logical operators,3,true,760,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,9477,19038,false,2,2179,2,10,true,2023-08-15T17:22:11.654467+05:30,151500,,9477,"The only line of the input contains a single integer representing N
+
+<b>Constraints</b>
+1 ≤ N ≤ 10<sup>9</sup>",true,736014,{1},,"Given a number <strong>N</strong>, perform a sequence of operations as described below and calculate the final result:
+<ul>
+	<li>Multiply the number by 2.</li>
+	<li>Add 10 to the result.</li>
+	<li>Divide the result by 2.</li>
+	<li>Subtract the original number from the result.</li>
+</ul>",Number Transformation Sequence,3,true,1272,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,9479,19037,false,2,2179,1,0,true,2023-08-15T21:45:52.937409+05:30,151500,,9479,"The only line of the input contains a single integer representing a 4 digit number N.
+
+Constraints
+1000 &le; N &le; 9999",true,736014,{1},,"Given a 4- digit number, calculate and print the sum of its individual digits using only variables and operators.",Sum of Digits in a Number,3,true,1423,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,1986,10792,false,2,2179,2,0,true,2022-01-21T03:17:51.798017+05:30,334015,,1986,"Input value of a.
+
+<b>Constraints</b>
+1000 <= a <= 9999",true,1510703,{1},,"Implement a Python function or program that reads the integer <b>&#39;a&#39;</b>&nbsp;from the user and performs the series of operations specified in the formula to calculate the final result.. <b>Note:</b> The value of <strong>&#39;a&#39;</strong> at any point of time is integer only.<br />
+<br />
+<strong>a=((((a+8)//3)%5)*5)</strong>",Integer Value Transformation,3,true,1206,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,2054,10794,false,2,2179,2,0,true,2022-02-23T01:21:27.140727+05:30,26956,,2054,"You don't have to take input, variables are already stored in A and B
+<b>Constraints</b>:-
+1 <= A, B <= 1000",true,334015,{1},,"Sara is trying a new magic trick on you, The magic trick goes in 6 steps are:-<br />
+1. Think of a number X(don&#39;t tell Sara)<br />
+2. Add A(Given by Sara) to it.<br />
+3. Double the sum in your mind.<br />
+4. Add an even number B(Given by Sara) to it.<br />
+5. Half the amount<br />
+6. Subtract the initial number which you had taken from the sum<br />
+<br />
+<b>Note: B is always even. </b>",Magic Trick,3,true,1233,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,1985,10790,true,2,2179,2,10,true,2022-01-21T03:03:28.399365+05:30,334015,,1985,"First line contains four variables a, b, c and d. 
+
+<b>Constraints</b>
+1<= a, b, c, d <= 100
+
+",true,14817,{1},,"<p>Ram, a Class V student, has completed an exam with four subjects, each carrying a maximum of 100 marks. He performed exceptionally well in his exam. However, when asked about the percentage he obtained, Ram faced difficulty in calculating it. He needs your help to determine his overall percentage (rounded down to the nearest whole number) based on the marks obtained in the four subjects: a,b,c, and d. Could you assist Ram in calculating his overall percentage achieved in the exam?</p>",Calculating Ram's Exam Percentage,3,true,1244,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,1395,6407,false,2,2179,1,10,true,2021-01-20T19:19:44.401652+05:30,26956,,1395,"You don't need to take any input , you just need to complete the function simple_sum() which takes num1, num2, num3 as parameters. 
+
+Constraints:-
+1 <= num1, num2, num3 <= 100",true,14817,{1},,"Complete the function simple_sum() which takes in three numbers num1,num2, and num3, and prints out the sum of these three numbers.",Simple Sum,3,true,987,2
+129341,2179,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-06-29T13:17:35.439905+05:30,632022,2179,1062,,true,Python operators,1703,3958,10160,false,1,2179,1,10,true,2022-09-01T13:02:54.152527+05:30,714721,,3958,"The first line contains the first number.
+The second line contains the second number.
+
+Constraints:
+-100000<=n<=100000",true,14817,{1},,"Write a program to find bitwise( OR, AND, XOR) of two given numbers.",Bitwise,3,true,0,1
+138281,2178,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:17:23.122781+05:30,632022,2178,1061,,true,Python datatypes and variables,1702,747,20915,false,2,2178,2,10,true,2020-05-20T01:21:14.03434+05:30,26956,1541926,747,"You don't have to take any input, 
+
+Constraints:-
+-10^3 <= F <= 10^3
+
+<b>Note:-</b> It is guaranteed that F - 32 will be a multiple of 9.",true,14817,{1},,"Given a temperature of F in Fahrenheit, your task is to convert it into Celsius using the following equation:- T(&deg;c) = (T(&deg;f) - 32)*5/9",Fahrenheit to Celsius,3,true,722,2
+172077,4183,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-11-22T01:05:23.967483+05:30,1445185,4183,2807,,true,Transfer Statements (Python),2808,11608,22103,false,2,4183,1,10,true,2023-11-27T13:53:06.465884+05:30,1541926,,11608,Enter an integer,true,1493278,{1},,"Write a Python program that takes an integer <code>n</code> (1 &lt;= n &lt;= 10) as input and prints the square of each number from 1 to n. However, skip the squares that are divisible by 3.",Skip squares divisible by 3,3,true,0,2
+172077,4183,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-11-22T01:05:23.967483+05:30,1445185,4183,2807,,true,Transfer Statements (Python),2808,11508,21958,false,3,4183,2,10,true,2023-11-22T07:47:49.512018+05:30,1541926,,11508,There is no specific input for this problem. The program should use a for loop to iterate through numbers and find the first 10 prime numbers.,true,1493278,{1},,"<p>Write a Python program to find and display the first 10 prime numbers. Use a <code>for</code> loop to iterate through numbers, and utilize transfer statements (<code>break</code>, <code>continue</code>, or <code>pass</code>) to control the flow of your program.<br />
+<br />
+Assuming that the first 10 prime numbers are within the range of 2 to 100</p>",Unveiling the First 10 Primes,3,true,0,3
+172077,4183,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-11-22T01:05:23.967483+05:30,1445185,4183,2807,,true,Transfer Statements (Python),2808,11518,21977,false,2,4183,2,10,true,2023-11-22T12:34:18.702938+05:30,1541926,,11518,The program takes a space-separated sequence of integers as input in a single line.,true,1493278,{1},,"Write a Python program that takes a space-separated sequence of integers as input from the user, calculates the sum of even numbers, and stops when a negative number is encountered. Once a negative number is entered, the program should print the sum of all even numbers entered before it.<br />
+&nbsp;
+<p>&nbsp;</p>",Even Sum Finder,3,true,0,2
+172077,4183,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-11-22T01:05:23.967483+05:30,1445185,4183,2807,,true,Transfer Statements (Python),2808,11509,21961,true,4,4183,2,10,true,2023-11-22T08:49:52.723959+05:30,1541926,,11509,A single positive integer N.,true,1493278,{1},,"Write a Python program to find the sum of the squares of all even numbers from 1 to N (inclusive), excluding those that are divisible by 3, where N is a user-input positive integer. Implement the solution using a <code>while</code> loop and incorporate transfer statements to control the flow of execution.
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The input integer N (1 &lt;= N &lt;= 100).</li>
+</ul>",Challenging Even Squares,3,true,0,4
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,11586,22289,false,3,2181,2,10,true,2023-11-25T13:55:35.973261+05:30,1541261,,11586,"Enter the minimum value in the first line,
+Enter the maximum value un the second line.",true,1493278,{1},,"<p>In a small town named Arithmetica, there are two neighboring communities: the Odds and the Evens. The town mayor, Mr. Mathias, is organizing a community fair where both the Odds and the Evens have decided to participate by showcasing their unique talents in mathematics.</p>
+
+<p>Task: As part of the fair&#39;s pre- event activities, Mr. Mathias has asked the residents to calculate the total sum of even and odd numbers within a specific range. Your task is to write a program that helps the residents of Arithmetica compute the sum of even and odd numbers separately within the provided range.<br />
+<br />
+&nbsp;</p>",Arithmetica's Community Fair,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10099,22248,false,4,2181,2,10,true,2023-09-19T02:15:43.152508+05:30,822046,,10099,"A list of integers deck, where deck[i] represents the number written on the ith card.",true,1541261,{5},,"You are given an integer array deck where deck[i] represents the number written on the ith card. Your task is to determine if it&#39;s possible to partition the cards into one or more groups, where each group contains exactly x cards (where x &gt; 1), and all cards within the same group have the same integer written on them. Return True if such a partition is possible, or False otherwise.",Group of Cards,3,true,0,4
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,3951,22244,false,3,2181,2,10,true,2022-09-01T10:39:58.927339+05:30,334015,,3951,The first string of the input is data and the second string is pattern.,true,14817,{5},,"You are given a chunk of data in the form of string. Your task is to match a given pattern from the data and return the number of times the pattern is matched in the data. <b>Function Description</b> Complete the function <b>count_pattern()</b> in the editor below. The function takes 2 parameters in the form of String. - <b>data</b> - <b>pattern</b> Return : - int : It should return the count of pattern matches in the data <b>Note :</b> If the input instance is empty string `&quot;&quot;`, then it should return &quot;Empty&quot;.",Pattern Matching,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10029,22235,false,3,2181,2,10,true,2023-09-16T06:04:21.447462+05:30,822046,,10029,A list of non- negative integers nums (1 <= len(nums) <= 100) representing the array of elements.,true,821571,{5},,"You are given a non- negative integer array nums. In each operation, you can choose a positive integer x that is less than or equal to the smallest non- zero element in nums. You then subtract x from every positive element in nums. Your goal is to find the minimum number of operations required to make every element in nums equal to 0.",Each Element is Zero,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10028,22234,false,2,2181,2,10,true,2023-09-16T05:41:50.625557+05:30,822046,,10028,A single integer num (-10^4 <= num <= 10^4) representing the target integer.,true,821571,{5},,"You are given an integer num, and your task is to find three consecutive integers that sum to num and return them as a list sorted in ascending order. If it&#39;s not possible to express num as the sum of three consecutive integers, return an empty list.",Find Consecutive Integers Summing to a Given Number,3,true,0,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10027,22233,false,3,2181,2,10,true,2023-09-16T04:54:23.02848+05:30,822046,,10027,A single positive integer n (1 <= n <= 2 * 10^9) representing the integer to be checked for being a Tricky number.,true,1541261,{5},,"You are given a positive integer n. An tricky number is defined as a positive integer whose prime factors are limited to 2, 3, and 5. Your task is to determine whether the given integer n is an Tricky number.",Tricky Factors,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,4026,22063,false,2,2181,2,10,true,2022-09-06T16:38:59.167818+05:30,714721,,4026,The first line contains the string.,true,14817,{1},,Write a program that accepts a string and calculate the number of digits and letters,Number of digits and letters,3,true,1235,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,11584,22049,false,3,2181,2,10,true,2023-11-25T12:57:38.357942+05:30,1541261,,11584,Prompt the user to enter a single integer number in the first line.,true,1493278,{1},,"Implement a Python program that checks whether a given number is an Armstrong number or not. An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits in the number. For example, 153 is an Armstrong number because 1<sup>3</sup>+5<sup>3</sup>+3<sup>3</sup>=1+125+27=153.<br />
+&nbsp;",Armstrong Number Checker,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10024,22027,false,3,2181,2,10,true,2023-09-16T03:37:53.36519+05:30,822046,,10024,A single positive integer n (0 <= n <= 37) representing the index of the Tribonacci number to be calculated.,true,1541261,{1},,The Tribonacci sequence is a sequence of numbers where each number is the sum of the three preceding numbers. It is defined as follows: T0 = 0 T1 = 1 T2 = 1 Tn+3 = Tn + Tn+1 + Tn+2 for n &gt;= 0 Write a Python code to calculate and return the value of Tn for a given positive integer n.,Tribonacci Number Calculation,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,11555,22019,false,3,2181,2,10,true,2023-11-23T16:49:08.334015+05:30,1541261,,11555,"Input the number of days for the trip in the first line
+and then input the daily expenses for each day during the trip in next n lines.",true,1493278,{1},,"You&#39;re developing a program to help a user manage their expenses for a trip. The user wants to keep track of their daily expenses and calculate the total expenditure for the entire trip. Create a Python program that takes the number of days for the trip as input and then asks the user to input the daily expenses for each day using a loop. Finally, the program should calculate and display the total expenses for the trip.<br />
+<br />
+&nbsp;",Trip Expenses Tracker,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,11477,21930,false,3,2181,1,10,true,2023-11-21T10:22:20.80036+05:30,1541261,,11477,the input consists of the quantity representing the number of products produced,true,1493278,{1},,"You are tasked with developing an algorithm for a manufacturing process that involves calculating the number of trailing zeroes in the factorial of a given number. The number represents the quantity of products produced in a specific time frame. &nbsp;Write a Python program that takes an input representing the quantity of products produced and calculates the number of trailing zeroes in its factorial. Trailing zeroes are crucial for packaging efficiency, ensuring that the products fit perfectly into boxes for shipment.",Factorial Trailing Zeroes for Packaging Efficiency,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10731,20878,false,3,2181,2,10,true,2023-10-17T16:22:33.017795+05:30,1510703,,10731,"Input would consist of a the values of the <code>start</code> and <code>end </code> where <code>start</code> is the first value of the limits of the range of which we want to find the prime numbers in, and <code>end </code>is the last value of the said range.",true,821571,{1},,"Write a Python program to find all prime numbers within a given range. The range typically means the first value of the list, last value of the list and the elements between them(both inclusive).",Prime number in a range,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10727,20874,false,3,2181,2,10,true,2023-10-17T16:09:00.7294+05:30,1510703,,10727,Input would consist of a number which can be or cannot be a palindrome number.,true,821571,{1},,"Write a Python program that checks whether a given number is a palindrome or not. A palindrome is&nbsp;<b>a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards.</b>",The Palindrome Number,3,true,0,3
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10724,20871,false,2,2181,2,10,true,2023-10-17T15:58:54.198225+05:30,1510703,,10724,"Input must consist of the integer value of n, where n denotes the size of the triangle.",true,821571,{1},,"Write a Python program that prints a pattern of asterisks in the form of a right- angled triangle the size of the triangle is defined by the input&nbsp;<code>n&nbsp;</code><br />
+Where <strong>n </strong>denotes the number of rows and columns the triangle consists of.&nbsp;",Printing the pattern!!,3,true,0,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10712,20850,false,2,2181,1,10,true,2023-10-17T14:26:32.260125+05:30,1510703,,10712,You will be given some random string containing(or may not containing) any vowel.,true,821571,{1},,"Write a Python program to count the number of vowels in a given string using loops.<br />
+<strong>vowels = &quot;aeiouAEIOU&quot;</strong>",Count the vowels!!,3,true,0,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,10711,20849,false,2,2181,1,10,true,2023-10-17T13:21:21.206168+05:30,1510703,,10711,"Input must consist of any number between 1 to 100 
+<code>n>=1 and n<=100</code>",true,821571,{1},,Write a python program to find the multiplication table of a number. Consider that the multiplication table ranges from 1 to 10.,Multiplication table of a number,3,true,0,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,6435,15927,true,2,2181,2,10,true,2023-04-20T18:38:15.0685+05:30,701767,,6435,"In the first line, Enter the number for which you want to find the factorial",true,736014,{1},,"Write a Python program to find the factorial of a given number. (Factorial is a mathematical operation that is represented by an exclamation mark (!). It is the product of all positive integers from 1 up to a given number. For example, the factorial of 5 (represented as 5!) is 1 x 2 x 3 x 4 x 5 = 120.)",factorial of a given number,3,true,855,2
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,6433,15926,false,1,2181,2,0,true,2023-04-20T18:18:17.975823+05:30,701767,,6433,"In the first line, enter the number for the multiplication table",true,736014,{1},,Write a Python program to print the multiplication table of a given number.,Multiplaction Table using Functions,3,true,0,1
+129343,2181,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:20:08.499235+05:30,632022,2181,1064,,true,Python loops,1705,2652,8866,false,2,2181,1,0,true,2022-06-15T17:45:13.73741+05:30,714721,,2652,"The first line contains the integer n.
+
+Constraints
+1<=n<=20",true,14817,{1},,"For all non- negative integers i &lt; n, Print square of i.",Print Square of Each Number,3,true,1277,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,11554,22017,false,3,2180,2,10,true,2023-11-23T15:30:55.721169+05:30,1541261,,11554,"Input the applicant's age in the first line, 
+gender (M or F) in the second line, and 
+To determine the recommended job location based on the provided criteria.",true,1493278,{1},,"<p>You&#39;ve been hired as a human resources manager for a company specializing in workforce placements. Your task is to develop an automated system to provide job location recommendations based on the demographic details of job applicants. You need to create a Python program that takes inputs regarding the applicant&#39;s age, and gender. Using the provided code as a reference, your program should determine the suitable work location recommendation for the applicant based on the following criteria:</p>
+
+<ul>
+	<li>If the applicant is a female (sex = &quot;F&quot;) and her age falls between 20 and 60 (inclusive), recommend &quot;Urban areas only. &quot;</li>
+	<li>If the applicant is a male (sex = &quot;M&quot;) and his age falls between 20 and 40 (inclusive), recommend &quot;You can work anywhere. &quot;</li>
+	<li>If the applicant is a male (sex = &quot;M&quot;) and his age falls between 41 and 60 (inclusive), recommend &quot;Urban areas only. &quot;</li>
+	<li>For any other scenario or invalid input, display &quot;ERROR. &quot;</li>
+</ul>",Automated Work Location Recommendation System,3,true,0,3
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,848,21914,false,2,2180,1,10,true,2020-06-20T13:49:00.826596+05:30,14817,,848,"<b>User Task:</b>
+Since this will be a functional problem, you don't have to take input. You just have to complete the function <b>maxInteger()</b> that takes three integers x, y and z as a parameter.
+
+<b>Constraint:</b>
+1<=integers<=10000",true,665,{1},,Given three integers your task is to find the maximum integer among the given integers.,Max Integer - Python,3,true,1814,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,4021,21627,false,3,2180,2,10,true,2022-09-06T15:12:48.499448+05:30,714721,,4021,"The first line contains the string.
+
+Constraints:
+len(s)>=1",true,14817,{1},,"Write a program to check if a string represents an integer or not.<br />
+<br />
+<br />
+&nbsp;",String is Integer,3,true,0,3
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,10025,20835,false,4,2180,2,10,true,2023-09-16T04:07:28.22886+05:30,822046,,10025,"Two positive integers: 
+n (1 <= n <= 100) representing the number of people standing in the circle, and 
+time (1 <= time <= 1000) representing the number of seconds.",true,1541261,{1},,"<p>In Pyville, a circular passing game is played by n people labeled from 1 to n. Initially, the first person holds a pillow. The game involves passing the pillow from person to person in a clockwise direction. After each complete round where the pillow reaches the last person, the direction changes, and the pillow is passed in the opposite direction (counter-clockwise).</p>
+
+<p>You are given two positive integers: n representing the number of people in the circle, and time representing the number of seconds. Your task is to determine the index of the person holding the pillow after the time seconds of the game.</p>
+
+<p>The function <strong><code>findPillowHolder(n, time)</code></strong> calculates the index of the person holding the pillow after the given duration time in the circular passing game. It considers the number of rounds completed and the direction of passing to determine the final holder&#39;s index.</p>",Musical Pillow,3,true,0,4
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,9553,19130,false,3,2180,2,10,true,2023-08-19T15:27:33.700872+05:30,736014,,9553,"Since this is a functional code you don't need to take any input you just need to complete the function are_anagrams() which is taking num1 and num2 as parameters.
+1<=num1, num2<=10^9",true,52829,{1},,"Write a Python program to check if two 3-digit numbers are anagrams of each other or not. Two numbers are considered anagrams if the digits of one can be rearranged to form the other number.<br />
+<br />
+For instance, <code>123</code> and <code>321</code> are anagrams, but <code>123</code> and <code>322</code> are not.",3 digit Anagram,3,true,1523,3
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,1543,6419,false,3,2180,1,10,true,2021-03-17T21:05:58.509771+05:30,26956,,1543,"<b>User Task:</b>
+Since this will be a functional problem, you don't have to take input. You just have to complete the function <b>QueenAttack()</b> that takes integers X, Y, P, and Q as arguments.
+
+Constraints:-
+1 <= X, Y, P, Q <= 8
+
+Note:- King and Queen can not be in the same position",true,14817,{1},,"In an 8X8 chessboard. Given the positions of the Queen as (X, Y) and the King as (P, Q) . Your task is to check whether the queen can attack the king in one move or not.<br />
+The queen is the most powerful piece in the game of chess. It can move any number of squares vertically, horizontally or diagonally .",Queen's attack,3,true,1507,3
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,3957,10534,false,2,2180,2,10,true,2022-09-01T12:33:19.741663+05:30,714721,,3957,"The first line contains the first number.
+The second line contains the second number.
+The third line contains the third number.
+
+Constraints:
+-100000<=n<=100000
+No 2 numbers are equal.",true,14817,{1},,"Write a program to find the median among three given numbers.<br />
+<br />
+<em>Median: The median is defined as the middle value in a sorted set of numbers.</em>",Median of 3 numbers,3,true,0,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,3955,10537,false,2,2180,1,10,true,2022-09-01T11:41:21.295077+05:30,714721,,3955,"The first line contains the first number.
+The second line contains the second number.
+
+<b>Constraints:</b>
+-10<sup>5</sup> &le; n &le; 10<sup>5</sup>",true,14817,{1},,"Given two integer numbers find their product. If the product is greater than 500, return their sum else return the product itself.",Product greater than 500,3,true,936,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,4009,10264,false,2,2180,1,10,true,2022-09-05T09:31:05.978311+05:30,714721,,4009,"The first line contains the number to be checked.
+
+Constraints:
+-100000<=n<=100000",true,14817,{1},,"Write a program to print a number is positive,negative or zero using if- else.",Positive or Negative,3,true,712,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,4020,10535,false,2,2180,1,10,true,2022-09-06T14:57:30.830253+05:30,714721,,4020,"The first line contains the side <code>x</code>
+The second line contains the side <code>y</code>
+The third line contains the side <code>z</code>
+
+Constraints:
+1 &le; n &le; 100000
+1 &le; n &le; 100000
+1 &le; n &le; 100000",true,14817,{1},,"Write a program to check if a triangle is equilateral, isosceles or scalene.<br />
+<br />
+<strong>Note :</strong>
+<ul>
+	<li>An equilateral triangle is a triangle in which all three sides are equal.</li>
+	<li>A&nbsp;isosceles triangle is a triangle with exactly two equal sides.</li>
+	<li>A scalene triangle is a triangle that has three unequal sides.</li>
+</ul>",Equilateral triangle,3,true,1298,2
+129342,2180,489,0 years 0 mons 0 days 2 hours 0 mins 0.0 secs,2022-06-29T13:18:50.041324+05:30,632022,2180,1063,,true,Python if else ladder,1704,4010,10249,false,2,2180,2,10,true,2022-09-05T11:09:02.613646+05:30,714721,,4010,The first line contains the week day number to be printed.,true,14817,{1},,Write a Program that reads an integer number and displays the corresponding <code>weekday&nbsp;name</code> using if_elif_else. The numbering of weekdays is as follows: 1- Monday 2- Tuesday 3- Wednesday 4- Thursday 5- Friday 6- Saturday 7- Sunday Print <code>Invalid</code> for any other input value.,Week Day-if else,3,true,712,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,11705,22285,false,2,2128,2,10,true,2023-11-30T12:04:14.343566+05:30,1541261,,11705,"Enter the number of books on the shelf.
+For each book, request the title in the second line 
+ and the publication year in the third line.",false,,{1},,"<p>You&#39;re designing a program for a librarian to manage a bookshelf that contains books with their respective publication years. The librarian wants to rearrange the books in reverse order based on their publication years to showcase the oldest books first.</p>
+
+<p>Write a Python program that takes inputs from the librarian to build a dictionary representing the books and their publication years. Then, create a function <code>reverse_order_books</code> that uses the concept of reversing dictionary keys&#39; order based on publication years.</p>",Publication Year Sorting,3,false,0,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10102,22253,false,3,2128,2,10,true,2023-09-19T02:53:43.008806+05:30,822046,,10102,A string consisting of lowercase or uppercase alphabetical characters.,true,736014,{5},,"Write a Python program to find the length of the<span style=""color:#cc0066;""> longest palindrome</span> that can be formed from a given string by rearranging its characters.",Longest Palindrome Length from String Rearrangement,3,true,1541,3
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10100,22249,false,4,2128,2,10,true,2023-09-19T02:30:20.143866+05:30,822046,,10100,"<b>User Task:</b>
+Since this is a functional code you don't have to input anything, you just need to complete the function <code>calculate_net_balance(transactions)</code> which takes transactions, a list of dictionaries as parameter.
+Ex: [{""user"": ""Alice"", ""transaction_type"": ""credit"", ""amount"": 100.0}, {""user"": ""Bob"", ""transaction_type"": ""debit"", ""amount"": 50.0}, {""user"": ""Alice"", ""transaction_type"": ""debit"", ""amount"": 30.0}]
+
+
+<b>Custom Input:</b>
+A list of transactions, where each transaction is represented as a dictionary with keys: user (string), transaction_type (string), and amount (float).",true,736014,{5},,"You are given a list of transactions, each representing a <span style=""color:#cc0066;"">financial transaction</span>. Write a Python program to find the net balance for each user. Each transaction is represented as a dictionary with the keys:<br />
+<span style=""color:#cc0066;"">user:&nbsp;</span>The<strong>&nbsp;</strong>name of user in string form&nbsp;<br />
+<span style=""color:#cc0066;"">transaction_type: </span>transaction_type can be either <strong>&quot;credit&quot;</strong> or <strong>&quot;debit&quot;. (credit</strong><b>&nbsp;refers to incoming money, and debit refer to outgoing money)</b><br />
+<span style=""color:#cc0066;"">amount:&nbsp;</span>transaction amount in string<br />
+Calculate the <span style=""color:#cc0066;"">net balance</span> for each user by summing up their transactions.",Transaction Managment,3,true,1609,4
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10061,22102,false,3,2128,1,10,true,2023-09-18T03:40:42.166139+05:30,822046,,10061,"You have a list of dictionaries, where each dictionary represents a person's data record",true,1541261,{1},,"You are working as a data analyst, and you have a list of dictionaries representing data records. Each dictionary contains information about a person, including their name, age, and income. Your task is to sort the list of records based on income in descending order using a lambda function.",Sort Records by Income,3,true,0,3
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,6583,22101,false,2,2128,2,10,true,2023-05-02T19:26:48.942871+05:30,701767,,6583,"The first line contains an integer num_orders representing the number of orders.
+There will be input in the next 2*num_orders lines in which:
+The odd-numbered line contains the string item_name representing the name of the item.
+The even-numbered line represents the quantity ordered.",true,736014,{1},,You are given a list of orders. Each order is represented by a tuple containing an item name and the quantity ordered. Your task is to find the total quantity ordered for each item and return a list of tuples containing the item name and its total quantity ordered. Constraints: Number of orders (1 &lt;= num_orders &lt;= 100). Quantity ordered (1 &lt;= quantity &lt;= 100).,Sales orders,3,true,1368,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10095,22091,false,4,2128,2,10,true,2023-09-19T01:02:23.420534+05:30,822046,,10095,"Since this  is a functional code , you don't have to take any input. You just need to complete the function flatten_nested_dict(nested_dict, parent_key='', separator='.').",true,736014,"{1,2,3,4}",,"Given a nested dictionary with multiple levels, use dictionary comprehension to flatten it into a single- level dictionary with keys as concatenated paths to the leaf nodes.",Nested Dictionary,3,true,0,4
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,2506,21921,false,2,2128,1,10,true,2022-06-01T00:08:27.894947+05:30,632022,,2506,A srting,true,122302,{1},,"User would enter a string, using a Python dictionary count the number of times each used alphabet appears in the word, and print the resulting dictionary. the dictionary should be ordered in the same sequence as typed by the user",counting alphabets,3,true,911,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10817,20941,false,2,2128,2,10,true,2023-10-20T13:33:43.992143+05:30,1510703,,10817,"The code for taking input is already written, you don't need to write it.
+The <strong>phonebook and name</strong> variables consist of phonebook dictionary and name string.
+The input is given in two lines first line consists of dictionary and the second line consists of the name for which we have to get the number.",true,736014,{1},,<p>You are given a phonebook (dictionary) which has different people&#39;s names as keys and their phone numbers as corresponding values. Your task is to complete the given function to get the phone number of the given name from the phonebook.&nbsp;</p>,Phonebook,3,true,1173,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,10815,20939,false,2,2128,2,10,true,2023-10-20T12:37:13.478786+05:30,1510703,,10815,"Write the code for taking the input.
+Input consists of all the details (name, email, and phone) in a new line.",true,822046,{1},,"Create a dictionary representing the contact information for a person. The dictionary contains three key-value pairs: &quot;name, &quot; &quot;email, &quot; and &quot;phone. &quot;.<br />
+<strong>You need to input name, email, and phone on your own.</strong><br />
+<br />
+Also, print the contact information for the person in the format specified in the example.",Contact_info,3,true,0,2
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,3920,10122,true,3,2128,1,10,true,2022-08-29T12:08:39.196048+05:30,714721,,3920,The first line contains the string.,false,,{1},,Python program to count the frequency of words appearing in a string using a dictionary.,Frequency of Words,3,true,0,3
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,3919,10120,false,3,2128,2,10,true,2022-08-29T11:48:00.344697+05:30,714721,,3919,Input consists of a single line having a sentence as a string.,true,1541926,"{1,2,3,4}",,"Write a detailed Python program that constructs a dictionary from a given sentence. In this dictionary, each key should be the first character of a word in the sentence, and the corresponding value should be a list of words from the sentence that start with that character.",Dictionary with Key as first character,3,true,0,3
+129378,2128,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:31.913122+05:30,122302,2128,1020,,true,Python Dictionary,1666,2507,5447,false,2,2128,1,10,true,2022-06-01T00:19:29.461264+05:30,632022,,2507,Enter 3 names,true,122302,{1},,"user would enter 3 names, default values are already given defaults = {&quot;designation&quot;: &#39;Data scientist&#39;, &quot;salary&quot;: 100000} initialize a dictionary with the user entered names as keys and the defaults as values for each of that name. print the full resulting dictionary.",initializing dictionary with default values.,3,true,0,2
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,11699,22281,false,2,3613,2,10,true,2023-11-30T08:08:01.763032+05:30,1541261,,11699,"Input an integer representing the number of test cases to be evaluated in the first line,
+Input an integer indicating the number of elements in set A (guest preferences),
+Enter space- separated elements representing the desired room features and amenities for guests from a specific region,
+Input an integer indicating the number of elements in set B (hotel's available features and amenities),
+Enter space- separated elements representing the available room features and amenities provided by the hotel.",false,,{1},,"<p>Create a Python script to verify if a hotel can satisfy the room preferences of guests from various regions. For each test case, given two sets representing guest preferences (set A) and available hotel amenities (set B), determine if set A is entirely accommodated within set B. The script should output &#39;True&#39; if the hotel can accommodate guest preferences, indicated by set A being a subset of set B; otherwise, it should output &#39;False&#39;.</p>",Hotel Accommodation Validation,3,true,0,2
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,11691,22274,false,4,3613,2,10,true,2023-11-30T01:10:50.982259+05:30,1541261,,11691,"The first line consists of an integer, K, the size of each group.
+The second line contains the unordered elements of the room number list.
+
+Constraints
+1<K<1000",false,,{1},,"<p>Mr. Anant Asankhya is the manager at the&nbsp;<em>INFINITE</em>&nbsp;hotel. The hotel has an infinite amount of rooms.</p>
+
+<p>One fine day, a&nbsp;<em>finite</em>&nbsp;number of tourists come to stay at the hotel.<br />
+The tourists consist of:<br />
+&rarr; A Captain.<br />
+&rarr; An unknown group of families consisting of K members per group where&nbsp; &nbsp;K &ne;&nbsp; 1.</p>
+
+<p>The Captain was given a separate room, and the rest were given one room per group.</p>
+
+<p>Mr. Anant has an unordered list of randomly arranged room entries. The list consists of the room numbers for all of the tourists. The room numbers will appear K times per group except for the Captain&#39;s room.</p>
+
+<p>Mr. Anant needs you to help him find the Captain&#39;s room number.<br />
+<em>The total number of tourists or the total number of groups of families is not known to you. </em><br />
+<em>You only know the value of K and the room number list. </em></p>",Captain's Room Mystery at the Infinite Hotel,3,true,0,4
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,10093,21994,false,4,3613,2,10,true,2023-09-19T00:32:10.593669+05:30,822046,,10093,"The input consists of two lines:
+A list of integers separated by spaces.
+An integer k represents the number of elements in each combination.",false,,{1},,"Given a list of integers, create a set comprehension that generates all unique combinations of k elements from the list. The result should be a set of tuples.",Generating Unique Combinations,3,false,0,4
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,10814,21892,false,2,3613,1,10,true,2023-10-20T12:20:35.699026+05:30,1510703,,10814,"The code for taking the input is already written, it takes the two lists as input in two lines in the form of space-separated integers.",true,822046,{1},,"You are given two lists, <code>list1</code> and <code>list2</code>, both containing integers. Complete a Python function called <code>common_elements</code> that takes these two lists as input and returns a set containing the elements that are common to both lists.",Find common sets!!,3,true,600,2
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,2596,21834,false,3,3613,2,10,true,2022-06-09T18:11:11.989594+05:30,279857,,2596,"1st line: Set A
+2nd line: Set B",true,122302,{1},,Find both the difference of set A and B ie A- B and B- A and also the symmetric difference between the sets and print in the sorted order as a list,Set Operation-1,3,true,1088,3
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,2593,21833,false,3,3613,2,10,true,2022-06-09T17:09:58.206066+05:30,279857,,2593,"1st line: Set A
+2nd line:Set B",true,122302,{1},,"Take two sets A and B,print if A is a subset of B (True/False), find the difference of A from B and vice versa.",Super set and difference,3,true,1056,3
+131039,3613,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-29T00:30:55.708967+05:30,701767,3613,2301,,true,Python sets,2377,2510,15415,true,2,3613,1,10,true,2022-06-01T20:15:28.423103+05:30,279857,,2510,"1st line:space- separated values for the first set
+2nd line: Space- separated values for the second set",true,122302,{1},,"Take 2 sets as input and find<br />
+a. Union of the sets in a sorted manner<br />
+b. The intersection of the sets in a sorted manner.",Set joining,3,true,1236,2
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,10033,22237,false,4,2127,2,10,true,2023-09-16T07:27:17.210087+05:30,822046,,10033,"A single integer n (3 <= n <= 100) representing the maximum limit for a, b, and c.",true,821571,{5},,"<p>&quot;Write a Python function called <strong><code>pythagorean_triplets</code></strong> that takes an integer <code>n</code> as input and generates all unique Pythagorean triplets (a, b, c), where <code>a</code>, <code>b</code>, and <code>c</code> are integers from 1 to n, satisfying the condition <code>a^2 + b^2 = c^2</code>. The function should collect these triplets and return them as a tuple.</p>
+
+<p>The generated Pythagorean triplets will be presented as a list containing multiple tuples, each representing a unique Pythagorean triplet (a, b, c). The function output will consist of all valid triplets within the given range from 1 to <font face=""monospace"">n.</font></p>",Right Triplet,3,true,0,4
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,2505,22084,false,2,2127,2,10,true,2022-05-31T23:44:37.749185+05:30,279857,,2505,"1st line: number of tuples to be added to the list ie n
+next n lines: each containing two integer values separated by spaces as tuple",true,122302,{1},,"Given a list of tuples containing only two elements, sort by the second element of the tuple in descending order",Tuple sorting,3,true,1254,2
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,10034,22061,false,3,2127,2,10,true,2023-09-16T07:51:02.952786+05:30,822046,,10034,"Since this is a functional question, you must complete the function <code>sum_pairs_in_tuple</code>. There is no need to take input or output.
+
+<code>Note: To use the <b><i>Run</i></b> button you can give input as a tuple as shown in example</code>",true,122302,"{1,2,3,4}",,Write a Python code that takes a <code>tuple</code> of integers and prints a new tuple containing the sum of pairs of consecutive elements from the original tuple.,Tuple Sum of Pairs,3,true,917,3
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,2504,21918,false,2,2127,1,10,true,2022-05-31T23:25:44.251383+05:30,632022,,2504,"Enter a integer in each line.
+2 - k value (it can be 1,2 or 3)
+3
+4
+5
+2
+6
+7
+",true,122302,{1},,"Given 6 elements, add to them to a tuple and print a tuple which contains k smallest and k largest elements of the given tuple. i.e., for example if k=2, the resulting tuple would have 2 smallest and 2 largest numbers from the original tuple. The resulting tuple should be sorted. k would be given as the first input, then the user would enter the six elements of the tuple.",k extreme elements,3,true,1311,2
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,10773,21882,false,2,2127,1,10,true,2023-10-18T17:22:43.537394+05:30,1510703,,10773,"Consist of the size of the tuple and the target tuple. The size of the tuple n should be always greater than or equal to 4 because we need to find out the last 4th element. 
+<code>n>=4</code>",true,822046,{1},,"You are given a tuple of size 10, write a python program to get the 4<sup>th</sup>&nbsp;element from the last element of a tuple. Consider the input tuple name to be&nbsp;<code>&nbsp;input_tuple </code>and last 4th item name to be&nbsp;<code>item1.&nbsp;</code>",Tuple's 4th element.,3,true,0,2
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,10774,20908,false,2,2127,1,10,true,2023-10-18T17:42:02.388576+05:30,1510703,,10774,No input for this.,true,822046,{1},,"Write Python code to create a tuple named <code>student_info</code> with the elements &quot;John&quot;, 18, and 3.8, representing the name, age, and GPA of a student. Also Print the tuple. After this print the&nbsp;name, age &amp; gpa saperately.",Student's Information,3,true,0,2
+129347,2127,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-05-16T15:21:16.320231+05:30,122302,2127,1019,,true,Tuples,1665,2731,6078,false,3,2127,2,10,true,2022-06-21T14:14:23.15414+05:30,714721,,2731,"The first line contains an integer, n, denoting the number of elements in the tuple.
+The second line contains n space- separated integers describing the elements in tuple t.",true,14817,{1},,"Given an integer, n, and n space- separated integers as input, create a tuple, t, of those n integers. Then compute and print the result of hash(t).",Print Hash Value,3,true,0,3
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10131,22242,false,2,3612,2,10,true,2023-09-20T10:13:46.08381+05:30,822046,,10131,The input consists of a single line containing a sorted list of integers separated by spaces. The list may contain both positive and negative integers.,true,821571,{5},,"You are given an array nums that is sorted in non- decreasing order. Your task is to determine whether there are more positive integers or negative integers in the array. Specifically: If the number of positive integers in nums is greater than or equal to the number of negative integers, return the count of positive integers. If the number of negative integers in nums is greater than the number of positive integers, return the count of negative integers. Please note that zero (0) is not considered either positive or negative in this context.",Count of Numbers,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10069,22240,false,4,3612,2,10,true,2023-09-18T15:25:56.867946+05:30,822046,,10069,A non- negative integer represented as a string num.,true,1510703,{5},,"You are provided with a non- negative integer represented as a string called num. Your task is to find the minimum number of operations required to make num special. In each operation, you can remove any digit from num. A special integer is defined as an integer that is divisible by 25.",Divisible by 25,3,true,0,4
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10030,22236,false,2,3612,2,10,true,2023-09-16T06:45:03.765079+05:30,822046,,10030,"<b>User Task:</b>
+Since this is a functional problem you don't have to take any input, you just need to complete the function maximumProduct(nums) which takes nums List as a parameter.
+enter the values as space separated
+
+
+A list of integers nums (3 <= len(nums) <= 10^4) representing the input numbers.",true,736014,{5},,"You are given an integer List <b>nums</b>, and your task is to find three numbers from the List whose product is maximum. Return the maximum product of those three numbers.",Product of Three,3,true,1392,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,4032,22098,false,2,3612,1,10,true,2022-09-07T13:11:31.188107+05:30,714721,,4032,"The first line contains the list elements separated by a space.
+
+Constraints:
+-100000<=element<=100000
+len(list)<=100",true,14817,{1},,Write a program to get the smallest number from a list.,Smallest number in a list,3,true,880,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,11568,22034,false,4,3612,2,10,true,2023-11-24T12:38:22.049841+05:30,1541926,,11568,"The input consists of three lines.
+
+The first line contains an integer n (1 <= n <= 1000), representing the length of the lists.
+The second line contains space- separated integers representing the elements of list1.
+The third line contains space- separated integers representing the elements of list2.",false,,{1},,"<p>You are given two lists of integers, <code>list1</code> and <code>list2</code>, both of the same length. Your task is to implement a function <code>merge_lists(list1, list2)</code> that merges the two lists in a specific way and returns merged_list. The merged list should contain elements from both lists, but with a twist:</p>
+
+<ul>
+	<li>If the element at the same index in both lists is <strong>even</strong>, add only the <strong>product</strong> of the two elements to the merged list.</li>
+	<li>If the element at the same index in both lists is <strong>odd</strong>, add only the <strong>sum</strong> of the two elements to the merged list.</li>
+</ul>",Merge List Twist,3,true,0,4
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,2664,15413,true,2,3612,2,10,true,2022-06-16T13:17:30.122497+05:30,714721,,2664,"The first line contains n. The second line contains an array A[] of n integers each separated by a space.
+
+Constraints:
+2<=n<=10
+-100<=A[I]<=100",true,14817,{1},,"Given the participants&#39; score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.",Runner Up Score,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,4042,21922,false,2,3612,1,10,true,2022-09-08T15:14:46.82945+05:30,714721,,4042,"The first line contains elements of the list separated by a space.
+
+Constraints:
+-100000<=element<=100000",true,14817,{1},,Write a program to concatenate a list of multiple integers into a single integer.,List of numbers to single Integer,3,true,992,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,6365,21902,false,2,3612,2,10,true,2023-04-13T12:07:11.447771+05:30,701767,,6365,"Since this is a functional code you don't have to take any input, you just need to complete the function <code>get_common_elements(list1, list2)</code> which is taking two lists as parameter.",true,736014,"{1,2,3,4}",,Complete the function that takes two lists as input and returns a new list with all the common elements in the two lists.,common elements using function,3,true,764,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,2643,21895,false,2,3612,1,10,true,2022-06-14T22:51:49.282241+05:30,714721,,2643,"You don't have to take any input, complete the function <code>def sortfunc(l):</code>
+Where <code>""l""</code> is a parameter.
+
+Constraints:
+-10^5<=n<=10^5",true,14817,{1},,"Input a list from the user, and return the list after sorting it in ascending order.",Sort a List of Integers in Ascending Order,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10740,21879,false,2,3612,2,10,true,2023-10-17T18:32:22.278299+05:30,1510703,,10740,"Input consists of 
+
+ 1)In the first line, enter size of the list.
+2) In second line, enter the elements of the target list.
+3)In the last line, enter the specific element to be removed respectively.",true,822046,{1},,Write a Python program to remove all occurrences of a specified element from a list and return the new_list.,Remove all occurrences,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10091,21705,false,4,3612,2,10,true,2023-09-18T23:58:54.168678+05:30,822046,,10091,"The input consists of two matrices represented as lists of lists. Each matrix is provided as separate input, and you'll be asked to input the number of rows and columns for each matrix.
+
+Input for the first matrix
+Matrix 1:
+Enter the number of rows
+Enter the number of columns
+Enter the elements of the matrix row by row:
+
+
+Input for the second matrix
+Matrix 2:
+Enter the number of row
+Enter the number of columns
+Enter the elements of the matrix row by row
+
+",true,1541261,{1},,"Create a program that performs matrix multiplication using list comprehension. Given two matrices as lists of lists, use list comprehension to calculate their product efficiently.",List comprehension,3,true,0,4
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,842,21669,false,2,3612,1,10,true,2020-06-19T20:53:21.96163+05:30,26956,,842,"<b>User Task:</b>
+Since this will be a functional problem, you don't have to take input. You just have to complete the function:- <b>OddAndEven()</b> that takes the list and the integer N as parameter.
+
+Constraints:-
+1 <= N <= 100
+1 <= Alist[i] <= 100",true,664,"{1,2,3,4}",,"Given a list of N integers, your task is to increment every even integer by 1 and decrement every odd integer by 1",Odd and even- python,3,true,1388,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10735,20884,false,2,3612,1,10,true,2023-10-17T17:29:17.289546+05:30,1510703,,10735,The size of the list<code> n </code>and the target list.,true,821571,{1},,Write a Python program to remove duplicates from a list and returns unique_list,Remove duplicates!!,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10732,20881,false,2,3612,1,10,true,2023-10-17T16:51:36.960414+05:30,1510703,,10732,A size of the list and a list of integer representing the target list.,true,821571,{1},,"You are given a list in python, you need to find the Maximum and Minimum Element in a list and return max_element and&nbsp;min_element",Maximum and Minimum,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10742,20887,false,2,3612,2,10,true,2023-10-17T18:45:12.794951+05:30,1510703,,10742,Input consist of the size of the n and the elements of the target list.,true,822046,{1},,"Write a Python function that takes a list of numbers as input and returns the sum of all even numbers in the list.<strong> </strong><strong>The size of the list is n, followed by the values of the elements of the list of type integer. &nbsp;</strong>",Sum of even numbers.,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,10738,20886,false,2,3612,2,10,true,2023-10-17T18:01:19.080937+05:30,1510703,,10738,The size of the list <code>n</code> and the target list.,true,822046,{1},,"Write a program to check if the given list is a palindrome list.<br />
+<br />
+Hint: Palindrome sequence that reads the same backward as forwards.",Check for Palindrome,3,true,0,2
+131034,3612,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2023-03-28T23:59:21.888119+05:30,701767,3612,2300,,true,Python lists,2376,4034,15410,true,1,3612,2,10,true,2022-09-07T14:59:09.009522+05:30,714721,,4034,"The first line contains the list elements separated by a space.
+
+Constraints:
+-100000<=element<=100000
+len(list)<=100",true,14817,{1},,Write a program to find the second largest number in a list.,Second largest number in a list,3,true,1307,1
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,11549,22037,false,3,4057,1,10,true,2023-11-23T10:57:33.972867+05:30,1541261,,11549,"Input the total number of books to be stored in the first line
+and the capacity of each shelf in the second line.",true,1493278,{1},,"You&#39;re developing a program for a digital library that organizes books on different shelves. Each shelf can contain a certain number of books, and the library wants to categorize these books using a recursive algorithm to determine the number of shelves required. Your task is to create a Python program that uses recursion to calculate the minimum number of shelves needed to store a given number of books based on the shelf capacity.",Recursive Shelf Allocation for Books,3,true,1365,3
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,11546,22012,false,2,4057,2,10,true,2023-11-23T10:25:30.073408+05:30,1541261,,11546,Input a starting number for the countdown challenge.,true,1493278,{1},,"You&#39;re helping to organize an event where attendees participate in a game called &quot;Countdown Challenge. &quot; In this game, players have to count down from a given number to zero in a sequential manner. Your task is to create a Python program using recursion that assists the players by displaying the countdown sequence based on their input.",Recursive Countdown Game Assistant,3,true,0,2
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,10804,20929,false,3,4057,2,10,true,2023-10-20T01:22:58.44979+05:30,822046,,10804,Input contains only one integer n. (1 <= n <= 15).,true,1510703,{1},,"Suppose you have n integers labeled 1 through n. A permutation of those n integers perm (1- indexed) is considered a Perfect arrangement if for every i (1 &lt;= i &lt;= n), either of the following is true:
+<ul>
+	<li>perm[i] is divisible by i.</li>
+	<li>i is divisible by perm[i].</li>
+</ul>
+Given an integer n, determine the number of the Perfect arrangements that you can construct.",Perfect!,3,true,0,3
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,10163,20928,false,4,4057,2,10,true,2023-09-22T03:49:17.180357+05:30,822046,,10163,"The input consists of a 2D board represented as a list of lists, board, where each inner list represents a row of characters. The board can contain letters (uppercase or lowercase) and other characters.
+
+The input also includes a string, word, representing the word you want to search for on the board.",true,1510703,"{1,2,3,4}",,"Given a 2D board of letters and a word, write a Python function to determine if the word exists on the board. The word can be constructed from letters of sequentially adjacent cells (horizontally or vertically).",Recursion game,3,true,0,4
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,10162,20927,false,2,4057,1,10,true,2023-09-22T02:37:35.120506+05:30,822046,,10162,"The input is a single string s, which is the string you want to reverse.",true,1510703,{1},,Write a Python function to reverse a string using recursion.,Reverse a String Using Recursion,3,true,0,2
+172068,4057,489,0 years 0 mons 0 days 0 hours 0 mins 0.0 secs,2023-10-10T10:11:27.367312+05:30,232969,4057,2682,,true,Recursion in python,2741,10805,20930,false,2,4057,1,10,true,2023-10-20T01:33:06.346563+05:30,822046,,10805,"<b>User Task:</b>
+Since this will be a functional problem, you don't have to take input. You have to complete the function <b>faultyCalc()</b> that takes the 2 integers ""X"" and ""Y"" as the parameter.
+
+",true,1510703,{1},,"There is a calculator that has the integer startValue on its display initially. In one operation, You can
+<ul>
+	<li>Multiply the number on display by 2.</li>
+	<li>Subtract 1 from the number on display.</li>
+</ul>
+Given two integers <strong>startValue as X&nbsp;</strong>and <strong>target as Y</strong>, return the minimum number of operations needed to display the target on the calculator.<br />
+<br />
+&nbsp;",Reach the Target,3,true,0,2
+129353,2210,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-07-04T13:41:32.153491+05:30,14817,2210,1086,,true,Python Function,1728,6560,16622,true,3,2210,3,10,true,2023-05-01T02:52:35.260417+05:30,822046,,6560,"In the first line, enter the first positive integer L, where L represents the lower limit of the range.
+In the second line, enter the second positive integer R,  where R represents the upper limit of the range.
+",true,701767,"{3,4}",,"Given two integers L and R, where L and R represent the lower and upper limits of a range, find the count of lucky numbers in that range. A lucky number is defined as a number whose last digit is 7, 2, or 9. Please calculate the number of lucky numbers in the range L to R. Constraints : 1 &lt;= L &lt;= R &lt;= 100000",Newton's Lucky Number,3,true,1655,3
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,10063,22062,false,4,2312,2,10,true,2023-09-18T04:39:39.857942+05:30,822046,,10063,"A string containing the encoded message.
+An integer representing the shift value used for the cipher.",true,1541261,{1},,You stumble upon a mysterious ancient scroll in an old library that contains a secret message. The message appears to be encoded using a simple cipher. Each letter of the alphabet is shifted by a certain number of positions. Write a Python function called decode_cipher that takes a string and an integer as input. The integer represents the shift value used for the cipher. The function should decode the message and return the original message.,Cypher,3,true,0,4
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,11492,21950,false,2,2312,2,10,true,2023-11-21T17:19:12.999373+05:30,1541261,,11492,"The first line indicates the distance to be traveled in kilometers
+The second line indicates the spacecraft's speed in kilometers per hour.",true,1493278,{1},,You&#39;re working on a simulation program for a space mission. The program needs to calculate the time taken for a spacecraft to reach its destination based on the distance to be traveled and the spacecraft&#39;s speed. Your task is to create a Python program that defines a function to calculate the time taken for the spacecraft to reach its destination. The function will take two arguments: the distance to be traveled (in kilometers) and the speed of the spacecraft (in kilometers per hour),Spacecraft Travel Time Calculator,3,true,0,2
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,11517,21970,false,3,2312,1,10,true,2023-11-22T12:10:02.032062+05:30,1541261,,11517,"input the number of students present in the first line
+and the total number of students in the class for the day's attendance in the second line.",true,1493278,{1},,"You&#39;re developing a program for a classroom attendance system. The program needs to track students&#39; attendance by taking input for the number of students present and absent for the day. Your task is to create a function that takes these inputs and calculates the attendance percentage. Additionally, based on the attendance percentage, the function should determine if the day&#39;s attendance is satisfactory or unsatisfactory.<br />
+<br />
+<strong>calculates the attendance percentage by dividing the number of present students by the total number of students and then multiplying the result by 100 to obtain the percentage.</strong>",Attendance Analyzer,3,true,0,3
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,11516,21968,false,3,2312,2,10,true,2023-11-22T11:13:24.841278+05:30,1541261,,11516,"In the first line input the price of an item, 
+In the second line input the quantity purchased,
+and in the third line input a discount percentage (if any) to calculate the total cost of the purchase.",true,1493278,{1},,"You&#39;re developing a simple program to calculate the total cost of a customer&#39;s purchase at a store. The program should accept inputs for the item price, quantity, and a discount (if any). Your task is to create a function that calculates the total cost based on these inputs. If a discount is provided, the function should consider it in the calculation.<br />
+<br />
+<strong>Predefined Constraints:</strong><br />
+total cost is the product of price of the item and the quantity,<br />
+and&nbsp;discounted amount is the product of the total cost by the discount percentage (converted to a fraction by dividing by 100).<br />
+<br />
+&nbsp;",Purchase Cost Calculator with Discounts,3,true,0,3
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,11491,21948,false,4,2312,2,10,true,2023-11-21T16:42:21.495052+05:30,1541261,,11491,"Input the employee's basic salary in the first line,
+the number of days worked in a month in the second line, 
+and any additional deductions to calculate the net salary in the third line.",true,1493278,{1},,"You&#39;re developing a program for a company that manages employee salaries. Your task is to create a Python program that calculates the net salary of an employee based on their basic salary, the number of days worked in a month, and any deductions. Create a function that takes these parameters as arguments and calculates the net salary after deducting a fixed amount for taxes and any additional deductions.<br />
+<br />
+<strong>Predefined constraints:</strong><br />
+<strong>Tax rate (15%)<br />
+fixed_tax_amount = basic_salary * tax_rate<br />
+total_deductions = fixed_tax_amount + deductions<br />
+daily_salary = basic_salary / 30 (Considering a month has 30 days)</strong>",Employee Net Salary Calculator,3,true,0,4
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,10062,21943,false,3,2312,2,10,true,2023-09-18T04:09:41.840443+05:30,822046,,10062,Should be space separated array of integers. ,true,1510703,{1},,"Given an array of integers arr, return true if we can partition the array into three non-empty parts with equal sums.",Three Sum II,3,true,0,3
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,6759,21931,false,4,2312,3,10,true,2023-05-12T15:49:20.184379+05:30,701767,,6759,"A List of Integers separated by space, which represents the houses with different colors.",true,736014,"{3,4}",,"There are n houses evenly lined up on the street, and each house is beautifully painted. Given an array of house colors, find the maximum distance between two houses with different colors. The distance between two houses is the absolute difference between their indices. For example, if the ith house and the jth house have different colors, the distance between them is abs(i- j). Constraints: 1)Lenght of the list should be greater than 2 and less than 100 2)List elements should be in the range of 0 to 100 3)List should not have all the same elements (eg: 1 1 1) If the above constraints are not met, then Print(&quot;Invalid input&quot;)",Different Color Houses,3,true,1777,4
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,11500,21964,false,2,2312,2,10,true,2023-11-21T22:06:19.079285+05:30,1541261,,11500,"input the quantity and price of three different beverages to calculate the total cost of the order.
+The first line contains the quantity of beverage 1
+The second line contains the price of the beverage 1
+The third line contains the quantity of beverage 2
+The fourth line contains the price of the beverage 2
+the fifth line contains the quantity of the beverage 3
+the sixth line contains the price of the beverage 3",true,1493278,{1},,"You&#39;re developing a program for a small caf&eacute; that offers various beverages. The program uses functions to calculate the total cost of a customer&#39;s order based on the quantity of beverages and their respective prices. Your task is to create a Python program that defines a function to calculate the total cost and takes inputs from the user for the quantity and price of each beverage. The program should then display the total cost.<br />
+<br />
+calculate the total cost of an order by multiplying the quantity of each beverage by its respective price and summing up these individual costs for all beverages included in the order.",Café Order Total Calculator,3,true,0,2
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,10161,21888,false,4,2312,2,10,true,2023-09-22T02:07:43.842701+05:30,822046,,10161,"The input consists of two integers, n and k, where n (1 <= n <= 10) represents the range of numbers from 1 to n, and k (1 <= k <= n!) represents the position of the desired permutation.",true,1510703,"{1,2,3,4}",,"Write a Python function kth_permutation(n, k) that returns the kth lexicographically smallest permutation of the numbers from 1 to n.",Kth Smallest Permutation,3,true,1668,4
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,7339,21698,false,3,2312,3,10,true,2023-05-12T22:41:54.718767+05:30,701767,,7339,"In the first line ,enter a string ",true,708031,"{3,4}",,"Create a function that takes a string and censors words over four characters with <code>*</code>. Constraints Don&#39;t censor words with exactly four characters. If all words have four characters or less, return the original string. The amount of<code><strong>&nbsp; *&nbsp;</strong></code><strong>&nbsp;</strong>is the same as the length of the word. If a word contains special characters, it should preserve them and only censors the alphanumeric characters.<br />
+<br />
+Special characters - eg: ! @ # $ % ^ &amp; * ( ) _ + - = { } [ ] | \ : ; &quot; &#39; &lt; &gt; , . ? / Space character Unicode characters such as &copy;, &reg;, &trade;, and &euro; Alphanumeric characters are characters that are either alphabets (a-z, A-Z) or numeric digits",Censor Words Longer Than Four Characters,3,true,1541,3
+136626,2312,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T19:53:15.008425+05:30,14817,2312,1168,2210,true,Python Function Parameters and Arguments,1728,6373,15809,false,2,2312,1,10,true,2023-04-14T09:38:30.14921+05:30,701767,,6373,"
+In the first line, enter the price of the cooldrink per liter.
+
+In the second line, enter the liters of cooldrinks that has to be packed with space separated. 
+
+
+",true,736014,{5},,"Write a function where the first argument should be the price per litre for the cold drinks brand, and the last k number of elements should be a variable number of arguments, each denoting the litres of cold drinks to be packed.<br />
+The function should print a formatted string of the Total payable amount for <code><strong>&#39;X&#39;</strong></code> ltr of the drink Apna Kola is <code><strong>X*price_per_litter</strong></code> for each of the variable length argument.<br />
+<br />
+Note: You dont have to write code for taking input,complete function code&nbsp;<code><strong>print_bill(per_litter,*args):</strong></code>",Apna Kola Function,3,true,1162,2
+129349,2206,489,0 years 0 mons 0 days 0 hours 10 mins 0.0 secs,2022-07-04T13:38:52.508045+05:30,14817,2206,1082,,true,Python Strings,1724,6364,21901,false,2,2206,1,10,true,2023-04-13T10:49:53.15494+05:30,701767,,6364,The first line of the input contains a string,true,736014,{1},,"Write a function that takes a string as input and returns <strong>&quot;True&quot;&nbsp;</strong>if the string is a palindrome (reads the same backwards as forwards), and <strong>&quot;False&quot;&nbsp;</strong>otherwise.&nbsp;<br />
+<br />
+Note: You dont have to write code for taking input,complete function code&nbsp;<code><strong>is_palindrome(string):</strong></code>",Palindrome function,3,true,0,2
+129349,2206,489,0 years 0 mons 0 days 0 hours 10 mins 0.0 secs,2022-07-04T13:38:52.508045+05:30,14817,2206,1082,,true,Python Strings,1724,9992,19788,false,2,2206,1,0,true,2023-09-14T07:59:56.327005+05:30,822046,,9992,"A string original_string containing only lowercase letters (a- z).
+A character target_char replace.
+A character replacement_char to replace target_char with.",false,1541261,{1},,"In the town of Pythonsville, there was a string with repeated characters. Your task is to replace them with a different character.",Pythonsville,3,true,0,2
+129349,2206,489,0 years 0 mons 0 days 0 hours 10 mins 0.0 secs,2022-07-04T13:38:52.508045+05:30,14817,2206,1082,,true,Python Strings,1724,2678,8870,false,1,2206,1,10,true,2022-06-17T11:39:28.635539+05:30,714721,,2678,The one line contains a string consisting of space separated words.,true,14817,{1},,You are given a string. Split the string on a &quot; &quot; (space) delimiter and join using a - hyphen.,String Split and Join,3,true,0,1
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,11708,22302,false,3,2216,2,10,true,2023-11-30T17:10:15.200455+05:30,1541261,,11708,No specific user input is required. The functions will utilize the smart_gadget instance to perform actions according to each scenario.,false,,{1},,"<p>You&#39;re tasked with implementing a program that simulates the actions of a Smart Gadget navigating through various scenarios using its inherited abilities from the <code>MusicPlayer</code> and <code>Phone</code> classes. The scenarios are outlined below:</p>
+
+<ol>
+	<li>
+	<p><strong>Scenario 1: The Park Serenade</strong> Create a function <code>park_serenade()</code> that utilizes the Smart Gadget&#39;s ability to play music.</p>
+	</li>
+	<li>
+	<p><strong>Scenario 2: Emergency Communication</strong> Implement a function <code>emergency_communication()</code> that demonstrates the Smart Gadget&#39;s capability to make a phone call in an emergency.</p>
+	</li>
+	<li>
+	<p><strong>Scenario 3: Tech Expo Exploration</strong> Develop a function <code>tech_expo_exploration()</code> that combines the Smart Gadget&#39;s musical prowess and communication skills to play music and make a phone call simultaneously while exploring a tech expo.</p>
+	</li>
+</ol>
+
+<p>Your task is to complete the missing parts of the code by implementing the functions <code>park_serenade()</code>, <code>emergency_communication()</code>, and <code>tech_expo_exploration()</code> using the <code>smart_gadget</code> instance created from the <code>SmartDevice</code> class. Ensure each function performs the corresponding action mentioned in the scenarios.</p>",Smart Gadget Scenarios,3,true,0,3
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,11635,22203,false,2,2216,2,10,true,2023-11-28T12:59:43.695247+05:30,1541261,,11635,"Prompt the user to input two numerical values, 'a' in the first line
+ and 'b in the second line.",true,1493278,{1},,"<p>As part of creating the mathematical utility program, write a Python script that includes three classes: <code>Calculation1</code>, <code>Calculation2</code>, and <code>Derived</code>. <code>Calculation1</code> should define a method for summation (<code>Summation</code>) of two numbers, <code>Calculation2</code> should define a method for multiplication (<code>Multiplication</code>) of two numbers, and <code>Derived</code> should inherit from both <code>Calculation1</code> and <code>Calculation2</code>, defining a method for division (<code>Divide</code>) of two numbers.</p>
+
+<p>Your program should prompt the user to input two numerical values, <code>a</code> and <code>b</code>. Instantiate the <code>Derived</code> class and use its methods to perform the following calculations based on the user&#39;s input:</p>
+
+<ul>
+	<li>Summation of <code>a</code> and <code>b</code>.</li>
+	<li>Multiplication of <code>a</code> and <code>b</code>.</li>
+	<li>Division of <code>a</code> by <code>b</code>.</li>
+</ul>
+
+<p>Display the results of each operation to provide a comprehensive mathematical tool for users.</p>
+
+<p><strong>Note to the Programmer:</strong> Ensure that the script includes appropriate prompts for user input and displays the calculated results accurately.</p>",Python Math Utility: Arithmetic Operations with Inheritance,3,true,0,2
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,11633,22201,false,3,2216,1,10,true,2023-11-28T12:00:16.384204+05:30,1541261,1541261,11633,No input required,false,,{1},,"Create a&nbsp;<strong>Bus</strong>&nbsp;child class that inherits from the Vehicle class. The default fare charge of any vehicle is&nbsp;<strong>seating capacity * 100</strong>. If the Vehicle is a&nbsp;<strong>Bus</strong>&nbsp;instance, we need to add an extra 10% on the full fare as a maintenance charge. So the total fare for the bus instance will become the&nbsp;<strong>final amount = total fare + 10% of the total fare.<br />
+Note:</strong> The bus seating capacity is&nbsp;<strong>50</strong>. so the final fare amount should be<strong>&nbsp;5500. &nbsp;</strong>You need to override the&nbsp;<code>fare()</code>&nbsp;method of a Vehicle class in the Bus class.<br />
+&nbsp;",Vehicle Fare Calculation with Bus Maintenance Charge,3,true,0,3
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,11632,22200,false,3,2216,2,10,true,2023-11-28T11:19:53.993602+05:30,1541261,,11632,No Input Required,true,1493278,{1},,"<p>&nbsp;</p>
+
+<p>As part of developing the transportation management program, write a Python script that includes two classes: <code>Vehicle</code> and <code>Bus</code>. The <code>Vehicle</code> class should contain attributes such as <code>name</code>, <code>max_speed</code>, and <code>mileage</code>. Additionally, implement a method <code>seating_capacity</code> within the <code>Vehicle</code> class that describes the seating capacity of a vehicle based on a provided <code>capacity</code> parameter.</p>
+
+<p>The <code>Bus</code> class, inheriting from the <code>Vehicle</code> class, should override the <code>seating_capacity</code> method. This method should assign a default seating capacity of 50 passengers to buses unless otherwise specified.</p>
+
+<p>After defining the classes and methods, create an instance <code>School_bus</code> of the <code>Bus</code> class, representing a school bus with the name &quot;School Volvo, &quot; maximum speed of 180, and mileage of 12. Finally, display the seating capacity of the <code>School_bus</code> using the defined methods.<br />
+<br />
+<strong>Note:</strong><br />
+Ensure that the script displays the default seating capacity for the school bus if no specific capacity is provided.</p>
+<br />
+&nbsp;",Vehicle Class Hierarchy and Seating Capacity Management,3,true,0,3
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,3758,9872,false,2,2216,1,10,true,2022-07-27T11:00:15.114797+05:30,279857,,3758,"In the first line enter Name,max_speed,mileage with space separated",true,122302,{1},,"Create a child class for vehicles which will inherit all properties of vehicles.<br />
+<br />
+<br />
+Note: Name you child class as <strong>Bus</strong>",Child,3,true,1121,2
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,5739,20935,false,2,2216,1,10,true,2023-02-27T10:47:24.028815+05:30,822046,,5739,"First line contains <code>name</code> of the vehicle a <code>string</code>.
+Second line contains <code>mileage</code> of the vehicle an <code>integer</code>.
+Third line contains <code>capacity</code> of the vehicle an <code>integer</code>.",true,701767,{1},,"Create a <strong>Bus child class</strong> that inherits from the <strong>Vehicle class</strong>.<br />
+The default fare charge of any vehicle is seating capacity * 100. If Vehicle is Bus instance, we need to add an extra 10% on full fare as a maintenance charge.<br />
+So total fare for bus instance will become the final amount = total fare + 10% of the total fare. Vehicle class will have name, mileage and capacity as data member and a function &quot;fare&quot; to calculate the fare of the Bus.",BUS FARE,3,true,0,2
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,10167,20007,false,4,2216,2,10,true,2023-09-22T05:50:34.00756+05:30,822046,,10167,No Input Required,true,1541261,{1},,"You are designing a library catalog system. Create a Python class called<code>&nbsp;Book</code> with the following attributes and methods:<br />
+<b>Attributes:</b><br />
+<code>title (string):</code> The title of the book.<br />
+<code>author (string):</code> The author of the book.<br />
+<code>publication_year (integer):</code> The year the book was published.<br />
+<b>Methods:</b><br />
+<code>__init__(self, title, author, publication_year):</code> The constructor method that initializes the title, author, and publication_year attributes.<br />
+<code>display_info(self):</code> A method that prints information about the book, including its title, author, and publication year.<br />
+<br />
+Now, create two subclasses,<b> FictionBook and NonFictionBook</b>, with additional attributes:<br />
+<br />
+<code>FictionBook&nbsp;Class&nbsp;(Subclass&nbsp;of&nbsp;Book):</code><br />
+<b>&nbsp; &nbsp; &nbsp;Attributes:</b> genre (string): The genre of the fiction book.<br />
+<code>NonFictionBook&nbsp;Class&nbsp;(Subclass&nbsp;of&nbsp;Book):</code><br />
+&nbsp; &nbsp; &nbsp;<b>Attributes:</b> topic (string): The topic of the non-fiction book.<br />
+<br />
+For both subclasses, override the <code>display_info</code> method to include the additional attributes (<b>genre</b> for FictionBook and <b>topic</b> for NonFictionBook). Create instances of <code>FictionBook</code> and <code>NonFictionBook</code> and demonstrate their <code>display_info&nbsp;</code>methods.<br />
+Your output should include the instances given in the Output section&nbsp;<br />
+&nbsp;",Catalog System,3,true,0,4
+129367,2216,489,0 years 0 mons 0 days 1 hours 30 mins 0.0 secs,2022-07-04T13:50:47.353897+05:30,14817,2216,1092,,true,Inheritance in Python OOPs,1734,10166,20006,false,3,2216,2,10,true,2023-09-22T05:26:33.693927+05:30,822046,,10166,No Input Required,true,1510703,{1},,"Suppose you are designing a system for a zoo that includes different types of animals. You have a base class <code>Animal</code> with common attributes and methods, and you need to create two subclasses, <code>Mammal</code> and <code>Bird</code>, to represent specific types of animals.<br />
+<br />
+Here are the details:<br />
+<br />
+<strong><code>Animal Class:</code></strong>
+<ul>
+	<li>Attributes: name (string): The name of the animal. species (string): The species of the animal.</li>
+	<li>Methods: __init__(self, name, species): The constructor method that initializes the name and species attributes.</li>
+	<li>make_sound(self): A method that prints a generic sound for the animal.</li>
+</ul>
+<strong><code>Mammal Class (Subclass of Animal):</code></strong>
+
+<ul>
+	<li>Attributes: fur_color (string): The color of the mammal&#39;s fur.</li>
+	<li>Methods:__init__(self, name, species, fur_color): The constructor method that initializes the name, species, and fur_color attributes.</li>
+	<li>make_sound(self): Overrides the make_sound method from the parent class to print a mammal- specific sound.</li>
+	<li>Lion makes <code>&quot;roar&quot;</code> sound.</li>
+</ul>
+<strong><code>Bird Class (Subclass of Animal):</code></strong>
+
+<ul>
+	<li>Attributes: feather_color (string): The color of the bird&#39;s feathers.</li>
+	<li>Methods: __init__(self, name, species, feather_color): The constructor method that initializes the name, species, and feather_color attributes.</li>
+	<li>make_sound(self): Overrides the make_sound method from the parent class to print a bird- specific sound.</li>
+	<li>Eagle&nbsp; makes <code>&quot;screech&quot;</code> sound.</li>
+</ul>
+You need to complete the code for the Animal, Mammal, and Bird classes so that they function as described above. Your task is to complete the missing parts in the __init__ and make_sound methods of the Animal, Mammal, and Bird classes so that the code produces the expected output. <code>&nbsp;</code><br />
+&nbsp;",Zoo Class,3,true,0,3
+129366,2221,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-04T16:26:39.859894+05:30,701767,2221,1096,,true,Abstraction in Python OOPs,1738,10168,20008,false,4,2221,2,10,true,2023-09-22T07:48:26.865799+05:30,822046,,10168,"The code for taking input is already written
+The input consists of Three Integers:
+The first line will represent ""r"" (radius of the circle)
+The Second line will represent ""a"" (length of rectangle, height of Triangle)
+The Second line will represent ""b"" (breadth of rectangle, base of Triangle)
+
+Example
+shapes = [Circle(r), Rectangle(a, b), Triangle(b, a)]
+ 
+",true,821571,{1},,"You are tasked with implementing a system for calculating the total area of various shapes. You need to create a set of classes representing different shapes (Circle, Rectangle, Triangle) and a function to calculate the total area of a list of these shapes (parameter <strong>shapes</strong>).<br />
+In case of any invalid shape in the parameter(<strong>shapes</strong>) return <code><strong>&quot;Invalid&nbsp;shape&nbsp;object&nbsp;in&nbsp;the&nbsp;list&quot;</strong></code>",Advance Data Abstraction,3,true,0,4
+129365,2218,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-07-04T13:51:31.441383+05:30,14817,2218,1094,,true,Polymorphism in Python OOPs,1735,11711,22306,false,4,2218,2,10,true,2023-11-30T22:52:27.292116+05:30,1541261,,11711,No input required,false,,{1},,"A company, XYZ Corp, manages its employee payment system through two modes: Salary and Hourly. Employees can choose their payment structure based on their preferences and job roles.<br />
+<strong>Salary Mode:</strong> Employees are offered a fixed monthly salary.<br />
+<strong>Hourly Mode:</strong> Some employees prefer an hourly payment based on the number of hours they work.<br />
+The company wants a system to manage these payments efficiently using Python OOPs concepts, especially Polymorphism.
+<h4>Tasks:</h4>
+1. Design a program that implements the Payment, Salary, and Hourly classes according to the given structure.<br />
+2. Demonstrate the flexibility of your design by creating:<br />
+3. At least 3 instances of Salary and Hourly workers with different salary/hourly rates.<br />
+4. A function/method to calculate the total payment for a list of employees, which can be a mix of Salary and Hourly workers.<br />
+&nbsp;
+<div style=""display: block; width: 0px; height: 0px; padding: 0px; border: 0px; margin: 0px; position: absolute; top: 0px; left: -9999px; opacity: 0; overflow: hidden;"">&nbsp;</div>",Flexible Employee Payment System,3,true,0,4
+129365,2218,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-07-04T13:51:31.441383+05:30,14817,2218,1094,,true,Polymorphism in Python OOPs,1735,11647,22211,false,2,2218,1,10,true,2023-11-28T17:18:51.631591+05:30,1541261,,11647,No input required,true,1493278,{1},,"<p>As part of the program development, write a Python script that defines a base class <code>Human</code> with a method <code>walk()</code> that is meant to be overridden by its subclasses. Implement subclasses <code>Adult</code> and <code>Infants</code>, inheriting from the <code>Human</code> class. The <code>walk()</code> method in the <code>Adult</code> class should print &quot;Adult can walk. &quot; to simulate an adult&#39;s walking ability, while the <code>walk()</code> method in the <code>Infants</code> class should print &quot;Sorry, infants can&#39;t walk. &quot; to represent an infant&#39;s inability to walk.</p>
+
+<p>Furthermore, create a function <code>make_human_walk()</code> that takes an instance of a <code>Human</code> as an argument and invokes its <code>walk()</code> method to display the appropriate walking behavior based on the age group.</p>
+
+<p>After defining the classes and functions, instantiate objects for an adult and an infant. Utilize the <code>make_human_walk()</code> function to simulate their walking behavior.</p>",Python Human Walking Simulator,3,true,0,2
+129365,2218,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-07-04T13:51:31.441383+05:30,14817,2218,1094,,true,Polymorphism in Python OOPs,1735,11638,22205,false,3,2218,2,10,true,2023-11-28T13:39:19.315421+05:30,1541261,,11638,No input required,true,1493278,{1},,"<p>As part of developing the state information program, write a Python script that defines a <code>State</code> class with attributes for the state&#39;s name and capital. Implement subclasses <code>UttarPradesh</code>, <code>TamilNadu</code>, and <code>Karnataka</code> that inherits from the <code>State</code> class, initializing specific state names and their respective capitals.</p>
+
+<p>Your script should also include a function named <code>get_capital</code> that takes an object representing a state as an argument and displays information about that state&#39;s capital.</p>
+
+<p>After defining the classes and function, instantiate objects for Uttar Pradesh, Tamil Nadu, and Karnataka, and use the <code>get_capital</code> function to display information about the capitals of these states.<br />
+<br />
+<strong>State&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Captial</strong><br />
+Uttar Pradesh&nbsp; &nbsp;&nbsp;Lucknow<br />
+Tamil Nadu&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Chennai<br />
+Karnataka&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bengaluru</p>","Python State Information: Capitals of Uttar Pradesh, Tamil Nadu, and Karnataka",3,true,0,3
+129365,2218,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-07-04T13:51:31.441383+05:30,14817,2218,1094,,true,Polymorphism in Python OOPs,1735,3725,9714,false,3,2218,2,10,true,2022-07-21T11:00:14.430844+05:30,279857,,3725,"You don't have to take input, enter number of inputs in the first line
+Second line enter the shapes with dimension.",true,122302,{1},,"You are given a set of geometric shapes, each represented by its dimensions. Implement classes for different shapes: Circle, Rectangle, Triangle, and Square. Each class should have a method named <code>area</code> that calculates and returns the area of the shape based on its dimensions. Additionally, create a function <code>calculate_area</code> that takes an instance of a shape and prints its area.<br />
+<br />
+Key for input :
+<ul>
+	<li>Triangle: base,height</li>
+	<li>Circle: radius,take <code>pi=3.14</code></li>
+	<li>Rectangle: length,breadth</li>
+	<li>Square: side</li>
+</ul>
+<br />
+&nbsp;",Area finder,3,true,1430,3
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,11710,22304,false,3,2224,2,10,true,2023-11-30T22:16:44.897826+05:30,1541261,,11710,No input required,false,,{1},,"<p>You are hired as a Python developer at ABC Company and tasked with testing the functionality of the <code>Employee</code> class. Use the provided <code>Employee</code> class code and consider the following scenario:</p>
+
+<ol>
+	<li>Initialize an employee named &quot;John Doe&quot; with a salary of $50, 000.</li>
+	<li>Print the name and salary of the employee using appropriate methods.</li>
+	<li>Attempt to set a negative salary (- $1000) for the employee and handle the error appropriately by displaying an error message.</li>
+	<li>Update the employee&#39;s name to &quot;Alice Smith&quot; using the respective method.</li>
+	<li>Display the updated name of the employee.<br />
+	&nbsp;</li>
+</ol>",Employee Class Functionality Test,3,true,0,3
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,11670,22255,false,3,2224,2,10,true,2023-11-29T15:07:39.536448+05:30,1541261,,11670,"Prompt the user to input the deposit amount in the first line.
+Prompt the user to input the withdrawal amount in the second line.",false,,{1},,"<p>Develop a Python program featuring a BankAccount class enabling users to deposit, withdraw, and check their account balance. The class initializes the account balance to zero, facilitates deposits and withdrawals with error handling for valid numeric inputs, and displays the remaining balance after transactions.</p>",Banking Application,3,true,0,3
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,11669,22251,false,4,2224,2,10,true,2023-11-29T13:16:13.78044+05:30,1541261,,11669,No input required,false,,{1},,"You are working on a program to manage the inventory of a bookshop using the BookStore class in Python. Your task is to implement additional functionality and demonstrate the usage of the BookStore class based on specific operations.<br />
+<br />
+Write a Python program that incorporates the <code>BookStore</code> class and performs the following operations:<br />
+1. Instantiate the <code>BookStore</code> class to manage the book inventory.<br />
+2. Initially, add 100 books to the bookstore&#39;s inventory.<br />
+3. Sell 30 books and display the updated inventory status.<br />
+4. Attempt to sell 90 books at once and handle the situation where the available books are insufficient for the sale.<br />
+5. Finally, add 50 more books to the inventory and display the updated inventory status.
+<p>Ensure that the private attributes are accessed and manipulated only through the methods defined within the <code>BookStore</code> class.</p>
+
+<p>Your implementation should handle insufficient book availability gracefully during the selling process.</p>",Python Bookstore Inventory Management,3,true,0,4
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,11667,22226,false,2,2224,2,10,true,2023-11-29T10:54:29.559995+05:30,1541261,,11667, Input a temperature value in Celsius.,false,,{1},,You are developing a temperature conversion application for a weather monitoring system. The application must take user input for a temperature in Celsius and convert it to Fahrenheit using a <code>TemperatureConverter</code> class. This class encapsulates the conversion methods and ensures the privacy of the temperature attributes.,Temperature Conversion Utility,3,true,0,2
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,11657,22220,false,3,2224,1,10,true,2023-11-29T01:53:52.222354+05:30,1541261,,11657,"Prompt the user to enter the number of teachers for whom they want to input details.
+For each teacher, ask the user to provide:
+Name of the teacher.
+Age of the teacher.
+Salary of the teacher.",true,1493278,{1},,"You are tasked with creating a program to manage a school&#39;s faculty details. The program should allow users to input information about teachers and display their details. However, the salary information of each teacher should be kept private and only accessible within the class itself.<br />
+Your program should include:<br />
+1) A <code>Teacher</code> class with attributes <code>name</code>, <code>age</code>, and a private attribute <code>__salary</code>.<br />
+2) The <code>__init__</code> method to initialize the <code>Teacher</code> object with the provided name, age, and salary.<br />
+3) A method <code>show_details()</code> within the <code>Teacher</code> class to display the teacher&#39;s name, age, and salary.",Faculty Details Management System,3,true,0,3
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,3731,21897,false,2,2224,2,10,true,2022-07-22T10:00:15.119517+05:30,279857,,3731,Space separated values for name and rank. Here rank is the private member,true,122302,{1},,Given the code access the private member of the class and print it,Access the forbidden,3,true,0,2
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,10828,20956,false,2,2224,1,10,true,2023-10-20T17:36:43.162856+05:30,822046,,10828,Space- separated values for name and rank. Here rank is the private member,true,1510703,{1},,"Rank is private member in student class, access the private member of the class and print it.",Accessing Private,3,true,0,2
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,10169,20009,false,3,2224,2,10,true,2023-09-22T08:12:15.049186+05:30,822046,,10169,"The input consists of three integers separated by newlines:
+An integer r representing the initial balance of the Bank Account.
+An integer d representing the amount to deposit into the account.
+An integer w representing the amount to withdraw from the account.",true,1510703,{1},,"You are tasked with creating a class that represents a Bank Account with encapsulated attributes. The Bank Account should have a private balance attribute, and you need to provide methods to set and get the balance. Additionally, create methods to deposit and withdraw funds from the account while ensuring that the balance remains non-negative. Your task is to complete the missing parts of the code to ensure proper encapsulation and functionality of the Bank Account class.",Piggy Bank,3,true,0,3
+129364,2224,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T16:32:46.541511+05:30,701767,2224,1097,,true,Encapsulation in Python OOPs,1739,3722,9695,false,1,2224,2,10,true,2022-07-21T09:28:21.611188+05:30,279857,,3722,"1st line: Student name and Student age
+2nd line: Number of operations n
+Next n lines: string like g or s.",true,122302,{1},,Get and update data using python OOPs using getter and setter method,Encapsulation,3,true,0,1
+129363,2313,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T20:03:42.581775+05:30,14817,2313,1168,1812,true,Python Self and access properties,1360,3713,21932,false,2,2313,2,10,true,2022-07-20T10:46:01.462655+05:30,279857,,3713,"1st line: Number of employees
+Next n line: Space separated values for name, salary and position",true,122302,{1},,"There is a company named ABC Private limited. You are given a list of names, their salary and position. Print the names salary and position along with the company&#39;s name using Python OOPs.",Employee details,3,true,1350,2
+129363,2313,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T20:03:42.581775+05:30,14817,2313,1168,1812,true,Python Self and access properties,1360,10165,21909,false,3,2313,1,10,true,2023-09-22T04:37:30.168095+05:30,822046,,10165,No Input Required.,true,1510703,{1},,"Consider a <strong>class Person</strong> with the following attributes and methods:<br />
+<strong>Attributes:</strong><br />
+<code>name (string):</code> The name of the person.<br />
+<code>age (integer):</code> The age of the person.<br />
+<strong>Methods:</strong><br />
+<code>__init__(self, name, age):</code> The constructor method that initializes the name and age attributes.<br />
+<code>&nbsp;greet(self):</code> A method that prints a greeting message including the person&#39;s name and age.<br />
+<br />
+Your task is to complete the __init__ and greet methods so that when you run the provided code, it produces the following desired output: <code>Hello,&nbsp;my&nbsp;name&nbsp;is&nbsp;Alice,&nbsp;and&nbsp;I&nbsp;am&nbsp;30&nbsp;years&nbsp;old.&nbsp;</code>",Class Person,3,true,0,3
+129363,2313,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T20:03:42.581775+05:30,14817,2313,1168,1812,true,Python Self and access properties,1360,3741,21712,false,2,2313,1,10,true,2022-07-25T11:00:08.001905+05:30,279857,,3741,"1st line: Name of the employee
+2nd line: Age of the employee(private member)
+3rd line: Salary of the employee (protected member)
+4th line: Designation of the employee",true,122302,{1},,"Write a constructor and instance method for a employees when information like name, age, salary and designation can be printed.",Employee details -2,3,true,1533,2
+129363,2313,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-08-03T20:03:42.581775+05:30,14817,2313,1168,1812,true,Python Self and access properties,1360,3750,21708,false,2,2313,1,10,true,2022-07-26T10:36:36.814172+05:30,279857,,3750,"Now for test purpose your documentation string will be 
+""This is the documentation of my class""",true,122302,{1},,Now you have created a data structure of your purpose and you want world to find out it&#39;s usage. So you have to have a documentation. Write the documentation of your class and print it.,Documentation,3,true,0,2
+129359,2213,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T13:47:58.29956+05:30,14817,2213,1089,,true,Python OOPs - Class & Objects,1731,2805,16046,false,2,2213,2,10,true,2022-06-26T11:27:30.116868+05:30,714721,,2805,The first and only line contains the length and breadth of the rectangle.,true,701767,{1},,"Write a Python class named Rectangle constructed by a length and width and a method that will compute the area of a rectangle.<br />
+<br />
+You don&#39;t have to write the code for taking input, you have to define the class as&nbsp;<strong>Rectangle(l,b),&nbsp;</strong>and the method for calculating the area should be named&nbsp;<strong>rectangle_area().</strong>",Area of a rectangle,3,true,1046,2
+129359,2213,489,0 years 0 mons 0 days 0 hours 30 mins 0.0 secs,2022-07-04T13:47:58.29956+05:30,14817,2213,1089,,true,Python OOPs - Class & Objects,1731,3756,9859,false,2,2213,1,10,true,2022-07-27T10:51:13.293143+05:30,279857,,3756,"In the first line enter max_speed
+In the second line enter mileage",true,122302,{1},,Write a Python program to create a Vehicle class with max_speed and mileage instance attributes.,Vehicle,3,true,1352,2
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11706,22290,false,4,2233,2,10,true,2023-11-30T13:14:31.395584+05:30,1541261,,11706,"Enter the number of programmers in the first line,
+Enter the name of programmer 1 and the programming language of programmer 1 as space-separated,
+Follow a similar pattern of prompt for the number of programmers you entered",false,,{1},,"<p>Imagine you&#39;re a member of the tech club committee tasked with organizing a programming competition. You&#39;re entrusted with creating a Python program to manage the registration process for the participants. Your program should enable the club to input details for each programmer, including their names and preferred programming languages. Once the data is collected, the program should efficiently sort the list of programmers based on their names in alphabetical order. The sorted list will assist in categorizing the participants for team formations and communications.</p>",Tech Club's Programmer Registration and Sorting System,3,true,0,4
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11689,22273,false,2,2233,2,10,true,2023-11-29T23:00:07.590428+05:30,1541261,,11689,Enter a number to check if it's a magic number.,false,,{1},,"Imagine you&#39;re developing a Python program that evaluates magic numbers! A magic number is a number that has a special property: when raised to the power of itself, the result is the number itself or has a particular relationship with the original number.<br />
+Your task is to create a Python program that uses lambda functions to check whether a user- provided number is a magic number or not.<br />
+<strong>&nbsp;Pre- defined constraints :</strong><br />
+The number is a magic number based on a specific condition: <code>x ** x == x or x ** x == 1</code><br />
+The evaluation logic depends on the user- provided number and its relationship when raised to the power of itself.",Magic Number Evaluator,3,true,0,2
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11688,22272,false,3,2233,2,10,true,2023-11-29T22:30:43.707416+05:30,1541261,,11688,"Enter the Temperature in Celsius (-50°C to 50°C) in the first line,
+Humidity percentage (0% to 100%) in the second line,
+Wind speed in kilometers per hour (0 km/h to 100 km/h) in the third line.",false,,{1},,"Imagine you&#39;re developing a simple weather analysis tool using Python&#39;s lambda functions. Your task is to create a program that allows users to input weather conditions and then uses lambda functions to perform quick calculations or transformations based on user preferences.<br />
+<strong>Pre- defined Constraints:</strong><br />
+converting temperature from Celsius to Fahrenheit should accurately perform the conversion using the formula <code>(Celsius * 9/5) + 32</code>.<br />
+humidity should return &quot;High&quot; if the humidity is above 70%; otherwise, it should return &quot;Low&quot;.<br />
+wind speed should be classified as &quot;Strong&quot; if the speed is above 40 km/h, &quot;Moderate&quot; if it&#39;s between 20 km/h and 40 km/h, and &quot;Low&quot; if it&#39;s below 20 km/h.",Python Weather Analyzer,3,true,0,3
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11631,22199,false,3,2233,2,10,true,2023-11-28T10:55:51.505075+05:30,1541261,,11631,Prompt the user to enter a numerical value.,true,1493278,{1},,"Imagine you are developing a tool for a scientific research team that requires formatting numerical inputs dynamically. Write a Python script that takes a user&#39;s input for a numerical value and formats it based on specific conditions.<br />
+As part of your task in developing the scientific tool, write a Python program that handles user input for a numerical value. The program should&nbsp;format the input as scientific notation if it&#39;s an integer or as a float with two decimal places if it&#39;s not an integer. After receiving the user&#39;s input, the code should display the formatted value to assist the research team in interpreting and analyzing numeric data effectively.",Dynamic Numeric Input Formatting for Scientific Analysis,3,true,0,3
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11630,22198,false,2,2233,2,10,true,2023-11-28T10:28:34.11665+05:30,1541261,,11630,Input two numerical values.,true,1493278,{1},,"Imagine yourself as an adventurer, standing before the sealed chamber. Write a Python script that accepts input from the user of two numerical values representing the ancient inscriptions on the chamber&#39;s wall. Once the values are provided, your code should display the smaller value, unveiling the key to unlocking the chamber&#39;s secrets.",Chamber of Secrets,3,true,0,2
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,11607,22104,false,2,2233,1,10,true,2023-11-27T13:39:32.174721+05:30,1541261,,11607,"Input the quantity in the first line,
+and the price of a product in the second line.",true,1493278,{1},,<p>You are developing a simple program for a retail store that sells various products. The program allows users to input the quantity and price of a product and calculates the total cost based on the quantity and price provided. You&#39;ve implemented a lambda function for multiplication to assist in calculating the total cost.</p>,Retail Cost Calculator,3,true,0,2
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,6370,15803,false,2,2233,1,10,true,2023-04-13T17:12:41.804304+05:30,701767,,6370,"1)In the first line, enter the number of entries you want to add.
+2)In the second line, enter the name and roll number with space separated.
+
+",true,736014,{1},,"Given a List of tuples as input, where the First Element is the Name and the second one is the roll number in the tuple, your job is to sort the function on the Roll number using Python sorted function and lambda function.",Sort using Lambda Functions,3,true,1211,2
+129357,2233,489,0 years 0 mons 0 days 0 hours 40 mins 0.0 secs,2022-07-11T13:17:14.101856+05:30,701767,2233,1106,,true,Python lambda functions,1748,10070,19878,false,4,2233,2,10,true,2023-09-18T16:02:13.805445+05:30,822046,,10070,A list of words represented as word1 word2.....wordn.,true,1541261,{1},,"You have a list of words, and you want to sort them based on the number of vowels in each word. Create a Python lambda function custom_sort that takes a list of words as an argument and sorts the words in ascending order of the number of vowels in each word using a lambda function.",Vowel-based Sorting,3,true,0,4
+129352,2209,489,0 years 0 mons 0 days 0 hours 15 mins 0.0 secs,2022-07-04T13:39:44.947618+05:30,14817,2209,1085,,true,String Formatting in Python,1727,11538,22227,false,2,2209,2,10,true,2023-11-23T00:52:22.518884+05:30,1541261,,11538,Input your name and the recent purchase amount at the store as space-separated values.,false,,{1},,"You&#39;re creating a simple program to generate personalized messages for customers visiting a store. The program should take user input for the customer&#39;s name and their recent purchase amount. Using string formatting, the program should display a message thanking the customer for their purchase and mentioning their name and the amount they spent.",Customer Appreciation Message Generator,3,true,0,2
+129352,2209,489,0 years 0 mons 0 days 0 hours 15 mins 0.0 secs,2022-07-04T13:39:44.947618+05:30,14817,2209,1085,,true,String Formatting in Python,1727,9991,21711,false,2,2209,2,10,true,2023-09-14T04:16:05.408417+05:30,822046,,9991,"The input consists of three lines, each containing an item name and its price. Each item name is a string, and each price is a float.",true,821571,{1},,"Anna is working on a program for a store that generates receipts. She needs to format the items and their prices in a user- friendly way. Given three items and their prices, write a Python program that formats and prints the receipt like this: Item Price Apples $1.50 Bananas $0.75 Oranges $2.00 Total $4.25 You should use string formatting to align the items and prices correctly. Store the formatted receipt in a variable called formatted_receipt and print it.",Generating a User-Friendly Receipt,3,true,0,2
+129351,2208,489,0 years 0 mons 0 days 0 hours 15 mins 0.0 secs,2022-07-04T13:39:30.794346+05:30,14817,2208,1084,,true,Escape Characters in Python,1726,11531,22254,false,2,2208,2,10,true,2023-11-22T17:00:20.215705+05:30,1541261,,11531,-,false,,{1},,"You are developing a Python program to generate personalized greeting card messages. While attempting to include a quote by Albert Einstein in the greeting message, you encountered an error due to double quotes within the text. Your task is to fix the code by using escape characters to include the quote by Albert Einstein without causing an error. Additionally, the greeting card message includes the sender and recipient&#39;s names (&quot;The greeting is from Alice to Kimberly&quot;) but lacks proper formatting. Modify the code to incorporate escape characters to display the quote and greeting message correctly.<br />
+<br />
+&nbsp;",Python Greeting Card,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11734,22326,false,3,2207,2,10,true,2023-12-01T13:49:49.379483+05:30,1541261,,11734,Enter a string,false,,{},,"Write a Python program that takes a user-input string and sorts its characters into separate lists for lowercase and uppercase letters, Join the characters from both lists to form the resulting string,<br />
+Display the original string and the sorted result.",Python String Case Sorting Tool,3,true,0,3
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11733,22325,false,2,2207,2,10,true,2023-12-01T13:07:08.502562+05:30,1541261,,11733,Enter a URL,false,,{},,"<p>You are developing a URL parsing tool as part of a web application. The tool is designed to extract the domain name from a given URL string and display it. You decide to implement this functionality using Python.</p>
+
+<p>Your task is to create a Python program that takes a user- input URL and extracts the domain name from it using the <code>split()</code> method.</p>",Python URL Domain Extractor,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11731,22323,false,3,2207,2,10,true,2023-12-01T12:23:30.344185+05:30,1541261,,11731,The user will input a password.,false,,{},,"In a password creation system, you need to ensure that the entered password meets certain criteria.<br />
+Create a Python function <code>check_password_complexity</code> that takes a password as input and checks if it contains&nbsp;<br />
+1. <code>has_min_length</code>: Checks if the password has a minimum length of 8 characters.<br />
+2. <code>has_uppercase</code>: Verifies if the password contains at least one uppercase letter.<br />
+3. <code>has_lowercase</code>: Checks for at least one lowercase letter in the password.<br />
+4. <code>has_digit</code>: Determines if the password includes at least one digit.<br />
+5. <code>has_special</code>: Checks for the presence of at least one special character from the defined set.",Password Complexity Checker,3,true,0,3
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11529,22228,false,2,2207,1,10,true,2023-11-22T16:00:13.319115+05:30,1541261,1541261,11529,Your task is to input your email address to check its validity based on specific criteria.,false,,{1},,"<p>You&#39;ve been assigned to develop a basic registration form validation system for an online platform. The system needs to check whether the email addresses provided by users meet specific criteria. Your task is to create a Python program that takes input from the user&#39;s email address and validates it based on the following conditions:</p>
+
+<ul>
+	<li>It should contain the &quot;@&quot; symbol and be positioned between characters (not at the start or end).</li>
+	<li>There should be exactly one &quot;@&quot; symbol present.</li>
+	<li>The email address must end with either &quot;. com&quot; or &quot;. in&quot;.</li>
+</ul>",Email Address Validation System,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11522,21978,false,3,2207,1,10,true,2023-11-22T13:21:08.268586+05:30,1541261,,11522,"provide a username in the first line,
+provide the character for which you want to count the occurance in the second line.",true,1493278,{1},,"You&#39;re developing a program to process user input for a security system. The system requires specific formatting for the username entered by the user. Your task is to create a Python program that takes user input for a username and performs certain string operations on it using built- in string methods. The program should remove any leading or trailing spaces, convert the username to lowercase, and count the occurrences of a particular character within the username. Additionally, the program should join the username with a prefix to create a final username format.",Security System Username Processing,3,true,0,3
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11519,21976,false,3,2207,2,10,true,2023-11-22T12:42:06.812419+05:30,1541261,,11519,Input a username and determine whether it meets the specified criteria.,true,1493278,{1},,"You&#39;re tasked with creating a program that checks the validity of a username. The program should take a username input from the user and perform certain string operations to validate it. The validation criteria include ensuring that the username contains no spaces, starts with a letter, and consists of only alphanumeric characters (letters, digits, and underscores). Your task is to implement this validation process using built- in string methods and display whether the username is valid or not.",Username Validation Program,3,true,0,3
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11530,21999,false,3,2207,1,10,true,2023-11-22T16:03:48.48387+05:30,1541261,,11530,Your task is to input your email address to check its validity based on specific criteria.,true,1493278,{1},,"<p>You&#39;ve been assigned to develop a basic registration form validation system for an online platform. The system needs to check whether the email addresses provided by users meet specific criteria. Your task is to create a Python program that takes input from the user&#39;s email address and validates it based on the following conditions:</p>
+
+<ul>
+	<li>It should contain the &quot;@&quot; symbol and be positioned between characters (not at the start or end).</li>
+	<li>There should be exactly one &quot;@&quot; symbol present.</li>
+	<li>The email address must end with either &quot;. com&quot; or &quot;. in&quot;.</li>
+</ul>",Email Address Validation Program,3,true,0,3
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11475,21924,false,4,2207,2,10,true,2023-11-21T00:08:38.310396+05:30,1541261,,11475,Enter the sensitive message to encrypt,true,1493278,{1},,"<div style=""text-align: justify;"">You work for a futuristic company specializing in cryptography and secret communications. One of the tasks assigned to you involves developing a unique encryption mechanism based on user input. The encryption method involves manipulating strings using Python&#39;s built-in methods.</div>
+
+<p style=""text-align: justify;"">Your task is to create a program that encrypts a message provided by the user using a series of string manipulation techniques. Your encryption algorithm includes the following steps:</p>
+
+<ol>
+	<li style=""text-align: justify;"">Take input from the user, which represents the sensitive message to be encrypted.</li>
+	<li style=""text-align: justify;"">Remove all spaces and punctuation marks from the input message.</li>
+	<li style=""text-align: justify;"">Reverse the string obtained from step 2.</li>
+	<li style=""text-align: justify;"">Convert all characters to uppercase.</li>
+	<li style=""text-align: justify;"">Replace all vowels in the reversed, uppercase string with &#39;@&#39;.</li>
+	<li style=""text-align: justify;"">Append the length of the encrypted message obtained from step 5 at the end of the string.</li>
+</ol>",Cryptic Encryption: Safeguarding Secrets,3,true,0,4
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11465,21903,false,4,2207,2,10,true,2023-11-20T17:54:17.852083+05:30,1541261,,11465,first line is a string containing alphanumeric characters and symbols,true,1493278,{1},,"<p>You are provided with a string containing alphanumeric characters and symbols. Your task is to create a Python program that performs the following operations:</p>
+
+<ol>
+	<li>Take a string input from the user.</li>
+	<li>Remove all the vowels from the string.</li>
+	<li>Reverse the resulting string.</li>
+	<li>Replace every occurrence of a digit in the reversed string with its squared value.</li>
+</ol>",Alphanumeric String Transformation,3,true,0,4
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,9990,21904,false,2,2207,1,10,true,2023-09-14T03:45:34.761593+05:30,822046,,9990,The input consists of a single string that represents the long article.,true,821571,{1},,"Sarah is working on a text analysis project and has a long article stored in a string. She wants to extract the first three sentences from the article. Write a Python program that slices the article to extract the first three sentences and stores them in a variable called first_three_sentences. Then, print these sentences.",Python Program to Extract First Three Sentences from a String,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,6292,21899,false,2,2207,2,10,true,2023-04-06T16:36:55.956858+05:30,701767,,6292,"Input is a string in the first line 
+
+0<=string length<=10^7",true,736014,{1},,"Write a program that takes in a string and prints a new string with all vowels removed.<br />
+<code>(Vowels : aeiouAEIOU)</code>",String without Vowels,3,true,895,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,6286,21896,false,2,2207,2,10,true,2023-04-06T15:39:46.357359+05:30,701767,,6286,"<b>User Task:</b>
+First line of input contains a string
+Second line of input contains a substring to be searched in the given string.",true,736014,{1},,"Count the number of occurrences of a specific substring within a given string.<br />
+<br />
+<b>Constraints:</b> Empty string(contains space): if the string or substring is empty then print(&quot;In-valid&quot;)<br />
+Case sensitivity: convert both the string and substring to lowercase",Occurrences of a given substring,3,true,1108,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,11444,21715,false,2,2207,2,10,true,2023-11-17T17:10:39.520679+05:30,1541261,,11444,The user is prompted to enter a sentence.,true,1493278,{1},,"<p>Write a program that takes a sentence as user input and performs the following tasks:</p>
+
+<ol>
+	<li>Counts the total number of characters (excluding spaces) in the sentence.</li>
+	<li>Calculates the number of words in the sentence.</li>
+	<li>Converts the sentence to uppercase.</li>
+</ol>",Sentence Analysis & Transformation,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,9994,21694,false,2,2207,2,10,true,2023-09-14T08:21:21.733742+05:30,822046,,9994,A string log_message containing a log message in the format specified above.,true,821571,{1},,"In the town of Pyville, there was a task to extract specific information from a log message. like : log_message = &quot;2023-09-12 [INFO] User &#39;Alice&#39; logged in. &quot; should return (&#39;2023-09-12&#39;, &#39;Alice&#39;)",Log Message Data Extraction,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,9997,21695,false,2,2207,1,10,true,2023-09-14T08:48:27.015847+05:30,822046,,9997,"A string stored in the variable ""user_input"".",true,821571,{1},,Emily is building a chatbot that responds to user inputs. She wants to clean up user input by removing leading and trailing spaces. Write a Python program using string methods to remove leading and trailing spaces from the user&#39;s input stored in the variable user_input.,User Input Cleaning,3,true,0,2
+129350,2207,489,0 years 0 mons 0 days 0 hours 20 mins 0.0 secs,2022-07-04T13:39:14.132972+05:30,14817,2207,1083,,true,Built-in Methods (Strings),1725,6298,15613,false,2,2207,2,10,true,2023-04-06T18:07:54.795114+05:30,701767,,6298,Enter a string,true,736014,{1},,"Write a program that takes in a string and prints a new string with the words reversed.<br />
+<br />
+<b>Note:</b> You might need to use <code>join()</code> here. In Python, the join() method is used to concatenate elements of an iterable, such as a list, with a specified separator and returns a string. <code>string_separator.join(iterable)</code>&nbsp;",Reverse a string,3,true,911,2
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,10648,21265,false,3,1812,4,0,true,2023-10-14T17:30:47.471151+05:30,1428548,,10648,"<ul>
+<li>N (integer): A natural number defining the maximum side length for the triangles.
+</ul>
+
+Constraints:
+<ul>
+<li>1 <= N <= 1000
+</ul>",true,1233160,"{3,4}",,"Write a Python function <code>find_pythagorean_triplets(N)</code> to find all Pythagorean triplets of triangles whose sides are no greater than a given natural number N. A Pythagorean triplet consists of three positive integers a, b, and c, where a &lt; b &lt; c, and they satisfy the Pythagorean theorem a^2 + b^2 = c^2. Your task is to implement this function to find all such triplets efficiently.",Python - Pythagorean triplets,3,true,1139,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9657,20351,false,2,1812,2,0,true,2023-08-28T14:53:03.822327+05:30,1428548,,9657,"An integer value that will define the length of the Fibonacci series.
+",true,1445185,"{3,4}",,"Write a function that will return a list consisting of 1st n Fibonacci numbers,<br />
+Fibonacci sequence is a mathematical sequence of numbers that starts with 0 and 1, and each subsequent number in the sequence is the sum of the two preceding ones.",Python - Fibonacci number,3,true,1056,2
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,10444,20379,false,3,1812,3,0,true,2023-10-06T13:24:26.083538+05:30,1428548,,10444,"<ul>
+<li>nums: A list of integers, which may include both positive and negative numbers. The list can be unsorted, and it may contain duplicates.
+<li>The length of nums can be any positive integer, and the elements can range from negative infinity to positive infinity.
+<li>The missing integer should be greater than or equal to 1.
+<li>If there is no missing integer, you are expected to return the next number in the series.
+</ul>",true,1233160,"{3,4}",,"Given an unsorted integer array, you are tasked with finding the smallest missing positive integer from the array. In other words, you need to identify the smallest positive integer that is not present in the array. The missing integer should be greater than or equal to 1. If there is no missing integer, you are expected to return the next number in the series.",Python - Missing Postive,3,true,1280,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9886,20362,false,3,1812,2,0,true,2023-09-07T10:40:35.784824+05:30,1428548,,9886,"<ul>
+<li>An array of strings, strs, where 1 ≤ len(strs) ≤ 200 and 0 ≤ len(strs[i]) ≤ 200.
+<li>The input array contains at least one string.
+</ul><br>
+Input: flower flow flight",true,1445185,"{1,3,4}",,Find the longest common prefix among an array of strings. if the prefix among an array of strings does not match it should return nothing.,Python - Longest_common_prefix,3,true,1222,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9631,20350,false,3,1812,2,0,true,2023-08-25T13:56:38.087501+05:30,1428548,,9631,"<ul>
+<li>An unsorted array of integers nums of length n where 1 <= n <= 2500.
+<li>Each element nums[i] in the array is an integer within the range -10^4 <= nums[i] <= 10^4.
+</ul>
+<code>Input: 10 22 9 33 21 50 41 60 80 </code>",true,1233160,"{1,3,4}",,Find the length of the longest increasing subsequence (not necessarily continuous) within the array.,Python - Longest increasing subsequence,3,true,1396,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9571,20342,false,3,1812,2,0,true,2023-08-22T19:42:39.352768+05:30,1428548,,9571,A string ,true,1445185,"{1,3,4}",,"Write a Python function <code>are_anagrams(s, t)</code> that determines if two strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another word or phrase, using all the original letters exactly once. The function should handle cases where <code>s</code> and <code>t</code> might have different lengths, and it should ignore non-alphanumeric characters while counting character frequencies. The function should return <code>True</code> if the input strings are anagrams, and <code>False</code> otherwise.",Python - Anagrams,3,true,1314,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,10215,20325,false,3,1812,2,0,true,2023-09-26T12:02:24.297502+05:30,1428548,,10215,"Since this is a functional code , you don't have to take any input. You just need to complete the function <code>minCandies()</code> which takes sequence of ratings as parameter.",true,1233160,"{1,3,4}",,"There are <code>n</code> children standing in a line. Each child is assigned a <code>rating</code> value given as a sequence of ratings. For example, if there are 4 children, you are given a sequence with 4 rating values: [r1, r2, r3, r4] You are expected to give candies to these children subject to the following requirements:
+<ul>
+	<li>Each child must have at least <code>one</code> candy.</li>
+	<li>Children with a higher rating get more candies than their neighbors.</li>
+</ul>
+Return the minimum number of candies you need to have to distribute the candies to the children.",Python - Candy Rating,3,true,1326,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,10000,20320,false,4,1812,2,0,true,2023-09-14T11:35:17.839406+05:30,1428548,,10000,"<ul>
+<li>A list of non-negative integers a1, a2, ..., an, where each integer represents the height of a vertical line. The index i of each height corresponds to the x-coordinate i on a 2D plane. The list represents the heights of vertical lines at different positions.
+</ul>
+Input: 1 8 6 2 5 4 8 3 7",true,1233160,"{1,3,4}",,"Given <code>n</code> non-negative integers <code>a<sub>1</sub>,&nbsp;a<sub>2</sub>,&nbsp;...,&nbsp;a<sub>n</sub></code>, where each represents a point at coordinate <code>(i,&nbsp;a<sub>i</sub>)</code>, n vertical lines are drawn such that the two endpoints of the line i is at <code>(i,&nbsp;a<sub>i</sub>)</code> and <code>(i,&nbsp;0)</code>. You are expected to use two lines among all the generated lines together with the x-axis to form a container such that it contains the most water (assuming the width of the container is 1). Find the maximum water that can be stored. Example: Input: 1 6 7 2 5 Coordinates: (1, 1) (2, 6) (3, 7) (4, 2) (5, 5) Line 1 is from (1, 0) till (1, 1) Line 2 is from (2, 0) till (2, 6) Line 3 is from (3, 0) till (3, 7) Line 4 is from (4, 0) till (4, 2) Line 5 is from (5, 0) till (5, 5) Max water can be stored between lines 2 and 5 [ (5-2)*(5)*(1) = 15]",Python - Container With Most Water,3,true,1718,4
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,10391,20291,false,3,1812,3,0,true,2023-10-04T12:09:10.10934+05:30,1428548,,10391,"Here's a more detailed explanation of the code:
+<ul>
+<li>stack is used to keep track of the indices of the histogram bars in a non-decreasing order of heights.
+<li>max_area is initialized to 0 to store the maximum rectangle area.
+<li>Heights must be a list.
+<li> Heights must not be an empty list.
+<li>Each element in height must be a positive integer.
+</ul>",false,,"{3,4}",,Calculates the largest rectangle's area in a histogram represented by a list of heights. The algorithm uses a stack to keep track of the indices of the histogram bars.,Python - Largest Rectangle in Histogram (not to use),3,true,0,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9556,19806,false,3,1812,3,0,true,2023-08-19T22:51:25.280901+05:30,1428548,,9556,Input a string.,true,1233160,"{3,4}",,"Create a dictionary where each unique alphabet in the string is a key in sorted order, and then corresponding value represents the count of how many times that alphabet appears in the string. Note: Provide the required input before you run the code, else you will end up with an error.",Python - Unique count,3,true,2014,3
+129339,1812,489,0 years 0 mons 0 days 1 hours 0 mins 0.0 secs,2022-02-23T18:48:18.205899+05:30,334015,1812,713,,true,Python Programming,1360,9559,19805,false,3,1812,3,0,true,2023-08-22T12:21:13.522523+05:30,1428548,,9559,"A series of integers ""nums"" and an integer ""target"".",true,1233160,"{1,3,4}",,"Given a list of integers numbers and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You must return the index in form of list.",Python - Target number,3,true,1785,3
